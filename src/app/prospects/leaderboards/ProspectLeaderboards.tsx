@@ -53,6 +53,7 @@ export default function ProspectLeaderboards() {
   const [group, setGroup] = useState<"hitting" | "pitching">("hitting");
   const [players, setPlayers] = useState<Player[]>([]);
   const [search, setSearch] = useState("");
+  const [qualifiedOnly, setQualifiedOnly] = useState(false);
   const [affiliate, setAffiliate] = useState("All Affiliates");
   const [sortKey, setSortKey] = useState("ops");
   const [sortDirection, setSortDirection] = useState<"asc" | "desc">("desc");
@@ -116,6 +117,19 @@ export default function ProspectLeaderboards() {
           affiliate === "All Affiliates" ||
           player.affiliates.includes(affiliate)
       )
+      .filter((player) => {
+        if (!qualifiedOnly) return true;
+
+        if (group === "hitting") {
+          return Number(player.stats.plateAppearances) >= 100;
+        }
+
+        const innings = String(player.stats.inningsPitched ?? "0");
+        const [whole, remainder = "0"] = innings.split(".");
+        const outs = Number(whole) * 3 + Number(remainder);
+
+        return Number.isFinite(outs) && outs >= 90;
+      })
       .sort((a, b) => {
         const first = a.stats[sortKey];
         const second = b.stats[sortKey];
@@ -142,7 +156,7 @@ export default function ProspectLeaderboards() {
           ? bValue - aValue
           : aValue - bValue;
       });
-  }, [players, search, affiliate, sortKey, sortDirection]);
+  }, [players, search, affiliate, qualifiedOnly, group, sortKey, sortDirection]);
 
   function handleSort(key: string) {
     if (sortKey === key) {
@@ -211,6 +225,21 @@ export default function ProspectLeaderboards() {
           </select>
         </div>
       </div>
+
+      <label className="mt-5 flex cursor-pointer items-center gap-3 text-sm text-slate-300">
+        <input
+          type="checkbox"
+          checked={qualifiedOnly}
+          onChange={(event) => setQualifiedOnly(event.target.checked)}
+          className="h-4 w-4 accent-[#d5b66a]"
+        />
+        <span>
+          Qualified Players Only
+          <span className="ml-2 text-xs text-slate-500">
+            ({group === "hitting" ? "100+ PA" : "30+ IP"})
+          </span>
+        </span>
+      </label>
 
       <div className="mt-8 flex flex-wrap items-center justify-between gap-3">
         <div>

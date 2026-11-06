@@ -273,6 +273,22 @@ export async function getYankeesProspectSeasonLeaderboard(
       return [];
     }
 
+    if (group === "hitting") {
+      if (Number(stats.plateAppearances ?? 0) <= 0) {
+        return [];
+      }
+    } else {
+      const [whole, remainder = "0"] = String(
+        stats.inningsPitched ?? "0"
+      ).split(".");
+
+      const outs = Number(whole) * 3 + Number(remainder);
+
+      if (!Number.isFinite(outs) || outs <= 0) {
+        return [];
+      }
+    }
+
     return [{
       playerId: player.playerId,
       playerName: player.playerName,
