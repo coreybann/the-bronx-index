@@ -37,6 +37,10 @@ type MLBPerson = {
 
 type MLBRosterEntry = {
   person: MLBPerson;
+  status?: {
+    code?: string;
+    description?: string;
+  };
 };
 
 export async function getYankeesProspects(
@@ -74,6 +78,9 @@ export async function getYankeesProspects(
       const person = entry.person;
 
       if (!person?.id) continue;
+
+      // Exclude MLB players on minor league rehab assignments.
+      if (entry.status?.code === "RA") continue;
 
       const existing = players.get(person.id);
 
