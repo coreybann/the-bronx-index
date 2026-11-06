@@ -1,0 +1,1550 @@
+[
+  {
+    "year": 1923,
+    "opponent": "New York Giants",
+    "wins": 4,
+    "losses": 2,
+    "games": 6,
+    "gameResults": [
+      {
+        "game": 1,
+        "gamePk": 67332,
+        "date": "1923-10-10",
+        "home": true,
+        "yankeesScore": 4,
+        "opponentScore": 5,
+        "result": "L"
+      },
+      {
+        "game": 2,
+        "gamePk": 67333,
+        "date": "1923-10-11",
+        "home": false,
+        "yankeesScore": 4,
+        "opponentScore": 2,
+        "result": "W"
+      },
+      {
+        "game": 3,
+        "gamePk": 67334,
+        "date": "1923-10-12",
+        "home": true,
+        "yankeesScore": 0,
+        "opponentScore": 1,
+        "result": "L"
+      },
+      {
+        "game": 4,
+        "gamePk": 67335,
+        "date": "1923-10-13",
+        "home": false,
+        "yankeesScore": 8,
+        "opponentScore": 4,
+        "result": "W"
+      },
+      {
+        "game": 5,
+        "gamePk": 67336,
+        "date": "1923-10-14",
+        "home": true,
+        "yankeesScore": 8,
+        "opponentScore": 1,
+        "result": "W"
+      },
+      {
+        "game": 6,
+        "gamePk": 67337,
+        "date": "1923-10-15",
+        "home": false,
+        "yankeesScore": 6,
+        "opponentScore": 4,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "year": 1927,
+    "opponent": "Pittsburgh Pirates",
+    "wins": 4,
+    "losses": 0,
+    "games": 4,
+    "gameResults": [
+      {
+        "game": 1,
+        "gamePk": 67359,
+        "date": "1927-10-05",
+        "home": false,
+        "yankeesScore": 5,
+        "opponentScore": 4,
+        "result": "W"
+      },
+      {
+        "game": 2,
+        "gamePk": 67360,
+        "date": "1927-10-06",
+        "home": false,
+        "yankeesScore": 6,
+        "opponentScore": 2,
+        "result": "W"
+      },
+      {
+        "game": 3,
+        "gamePk": 67361,
+        "date": "1927-10-07",
+        "home": true,
+        "yankeesScore": 8,
+        "opponentScore": 1,
+        "result": "W"
+      },
+      {
+        "game": 4,
+        "gamePk": 67362,
+        "date": "1927-10-08",
+        "home": true,
+        "yankeesScore": 4,
+        "opponentScore": 3,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "year": 1928,
+    "opponent": "St. Louis Cardinals",
+    "wins": 4,
+    "losses": 0,
+    "games": 4,
+    "gameResults": [
+      {
+        "game": 1,
+        "gamePk": 67363,
+        "date": "1928-10-04",
+        "home": true,
+        "yankeesScore": 4,
+        "opponentScore": 1,
+        "result": "W"
+      },
+      {
+        "game": 2,
+        "gamePk": 67364,
+        "date": "1928-10-05",
+        "home": true,
+        "yankeesScore": 9,
+        "opponentScore": 3,
+        "result": "W"
+      },
+      {
+        "game": 3,
+        "gamePk": 67365,
+        "date": "1928-10-07",
+        "home": false,
+        "yankeesScore": 7,
+        "opponentScore": 3,
+        "result": "W"
+      },
+      {
+        "game": 4,
+        "gamePk": 67366,
+        "date": "1928-10-09",
+        "home": false,
+        "yankeesScore": 7,
+        "opponentScore": 3,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "year": 1932,
+    "opponent": "Chicago Cubs",
+    "wins": 4,
+    "losses": 0,
+    "games": 4,
+    "gameResults": [
+      {
+        "game": 1,
+        "gamePk": 67385,
+        "date": "1932-09-28",
+        "home": true,
+        "yankeesScore": 12,
+        "opponentScore": 6,
+        "result": "W"
+      },
+      {
+        "game": 2,
+        "gamePk": 67386,
+        "date": "1932-09-29",
+        "home": true,
+        "yankeesScore": 5,
+        "opponentScore": 2,
+        "result": "W"
+      },
+      {
+        "game": 3,
+        "gamePk": 67387,
+        "date": "1932-10-01",
+        "home": false,
+        "yankeesScore": 7,
+        "opponentScore": 5,
+        "result": "W"
+      },
+      {
+        "game": 4,
+        "gamePk": 67388,
+        "date": "1932-10-02",
+        "home": false,
+        "yankeesScore": 13,
+        "opponentScore": 6,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "year": 1936,
+    "opponent": "New York Giants",
+    "wins": 4,
+    "losses": 2,
+    "games": 6,
+    "gameResults": [
+      {
+        "game": 1,
+        "gamePk": 67407,
+        "date": "1936-09-30",
+        "home": false,
+        "yankeesScore": 1,
+        "opponentScore": 6,
+        "result": "L"
+      },
+      {
+        "game": 2,
+        "gamePk": 67408,
+        "date": "1936-10-02",
+        "home": false,
+        "yankeesScore": 18,
+        "opponentScore": 4,
+        "result": "W"
+      },
+      {
+        "game": 3,
+        "gamePk": 67409,
+        "date": "1936-10-03",
+        "home": true,
+        "yankeesScore": 2,
+        "opponentScore": 1,
+        "result": "W"
+      },
+      {
+        "game": 4,
+        "gamePk": 67410,
+        "date": "1936-10-04",
+        "home": true,
+        "yankeesScore": 5,
+        "opponentScore": 2,
+        "result": "W"
+      },
+      {
+        "game": 5,
+        "gamePk": 67411,
+        "date": "1936-10-05",
+        "home": true,
+        "yankeesScore": 4,
+        "opponentScore": 5,
+        "result": "L"
+      },
+      {
+        "game": 6,
+        "gamePk": 67412,
+        "date": "1936-10-06",
+        "home": false,
+        "yankeesScore": 13,
+        "opponentScore": 5,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "year": 1937,
+    "opponent": "New York Giants",
+    "wins": 4,
+    "losses": 1,
+    "games": 5,
+    "gameResults": [
+      {
+        "game": 1,
+        "gamePk": 67413,
+        "date": "1937-10-06",
+        "home": true,
+        "yankeesScore": 8,
+        "opponentScore": 1,
+        "result": "W"
+      },
+      {
+        "game": 2,
+        "gamePk": 67414,
+        "date": "1937-10-07",
+        "home": true,
+        "yankeesScore": 8,
+        "opponentScore": 1,
+        "result": "W"
+      },
+      {
+        "game": 3,
+        "gamePk": 67415,
+        "date": "1937-10-08",
+        "home": false,
+        "yankeesScore": 5,
+        "opponentScore": 1,
+        "result": "W"
+      },
+      {
+        "game": 4,
+        "gamePk": 67416,
+        "date": "1937-10-09",
+        "home": false,
+        "yankeesScore": 3,
+        "opponentScore": 7,
+        "result": "L"
+      },
+      {
+        "game": 5,
+        "gamePk": 67417,
+        "date": "1937-10-10",
+        "home": false,
+        "yankeesScore": 4,
+        "opponentScore": 2,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "year": 1938,
+    "opponent": "Chicago Cubs",
+    "wins": 4,
+    "losses": 0,
+    "games": 4,
+    "gameResults": [
+      {
+        "game": 1,
+        "gamePk": 67418,
+        "date": "1938-10-05",
+        "home": false,
+        "yankeesScore": 3,
+        "opponentScore": 1,
+        "result": "W"
+      },
+      {
+        "game": 2,
+        "gamePk": 67419,
+        "date": "1938-10-06",
+        "home": false,
+        "yankeesScore": 6,
+        "opponentScore": 3,
+        "result": "W"
+      },
+      {
+        "game": 3,
+        "gamePk": 67420,
+        "date": "1938-10-08",
+        "home": true,
+        "yankeesScore": 5,
+        "opponentScore": 2,
+        "result": "W"
+      },
+      {
+        "game": 4,
+        "gamePk": 67421,
+        "date": "1938-10-09",
+        "home": true,
+        "yankeesScore": 8,
+        "opponentScore": 3,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "year": 1939,
+    "opponent": "Cincinnati Reds",
+    "wins": 4,
+    "losses": 0,
+    "games": 4,
+    "gameResults": [
+      {
+        "game": 1,
+        "gamePk": 67422,
+        "date": "1939-10-04",
+        "home": true,
+        "yankeesScore": 2,
+        "opponentScore": 1,
+        "result": "W"
+      },
+      {
+        "game": 2,
+        "gamePk": 67423,
+        "date": "1939-10-05",
+        "home": true,
+        "yankeesScore": 4,
+        "opponentScore": 0,
+        "result": "W"
+      },
+      {
+        "game": 3,
+        "gamePk": 67424,
+        "date": "1939-10-07",
+        "home": false,
+        "yankeesScore": 7,
+        "opponentScore": 3,
+        "result": "W"
+      },
+      {
+        "game": 4,
+        "gamePk": 67425,
+        "date": "1939-10-08",
+        "home": false,
+        "yankeesScore": 7,
+        "opponentScore": 4,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "year": 1941,
+    "opponent": "Brooklyn Dodgers",
+    "wins": 4,
+    "losses": 1,
+    "games": 5,
+    "gameResults": [
+      {
+        "game": 1,
+        "gamePk": 67433,
+        "date": "1941-10-01",
+        "home": true,
+        "yankeesScore": 3,
+        "opponentScore": 2,
+        "result": "W"
+      },
+      {
+        "game": 2,
+        "gamePk": 67434,
+        "date": "1941-10-02",
+        "home": true,
+        "yankeesScore": 2,
+        "opponentScore": 3,
+        "result": "L"
+      },
+      {
+        "game": 3,
+        "gamePk": 67435,
+        "date": "1941-10-04",
+        "home": false,
+        "yankeesScore": 2,
+        "opponentScore": 1,
+        "result": "W"
+      },
+      {
+        "game": 4,
+        "gamePk": 67436,
+        "date": "1941-10-05",
+        "home": false,
+        "yankeesScore": 7,
+        "opponentScore": 4,
+        "result": "W"
+      },
+      {
+        "game": 5,
+        "gamePk": 67437,
+        "date": "1941-10-06",
+        "home": false,
+        "yankeesScore": 3,
+        "opponentScore": 1,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "year": 1943,
+    "opponent": "St. Louis Cardinals",
+    "wins": 4,
+    "losses": 1,
+    "games": 5,
+    "gameResults": [
+      {
+        "game": 1,
+        "gamePk": 67443,
+        "date": "1943-10-05",
+        "home": true,
+        "yankeesScore": 4,
+        "opponentScore": 2,
+        "result": "W"
+      },
+      {
+        "game": 2,
+        "gamePk": 67444,
+        "date": "1943-10-06",
+        "home": true,
+        "yankeesScore": 3,
+        "opponentScore": 4,
+        "result": "L"
+      },
+      {
+        "game": 3,
+        "gamePk": 67445,
+        "date": "1943-10-07",
+        "home": true,
+        "yankeesScore": 6,
+        "opponentScore": 2,
+        "result": "W"
+      },
+      {
+        "game": 4,
+        "gamePk": 67446,
+        "date": "1943-10-10",
+        "home": false,
+        "yankeesScore": 2,
+        "opponentScore": 1,
+        "result": "W"
+      },
+      {
+        "game": 5,
+        "gamePk": 67447,
+        "date": "1943-10-11",
+        "home": false,
+        "yankeesScore": 2,
+        "opponentScore": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "year": 1947,
+    "opponent": "Brooklyn Dodgers",
+    "wins": 4,
+    "losses": 3,
+    "games": 7,
+    "gameResults": [
+      {
+        "game": 1,
+        "gamePk": 67468,
+        "date": "1947-09-30",
+        "home": true,
+        "yankeesScore": 5,
+        "opponentScore": 3,
+        "result": "W"
+      },
+      {
+        "game": 2,
+        "gamePk": 67469,
+        "date": "1947-10-01",
+        "home": true,
+        "yankeesScore": 10,
+        "opponentScore": 3,
+        "result": "W"
+      },
+      {
+        "game": 3,
+        "gamePk": 67470,
+        "date": "1947-10-02",
+        "home": false,
+        "yankeesScore": 8,
+        "opponentScore": 9,
+        "result": "L"
+      },
+      {
+        "game": 4,
+        "gamePk": 67471,
+        "date": "1947-10-03",
+        "home": false,
+        "yankeesScore": 2,
+        "opponentScore": 3,
+        "result": "L"
+      },
+      {
+        "game": 5,
+        "gamePk": 67472,
+        "date": "1947-10-04",
+        "home": false,
+        "yankeesScore": 2,
+        "opponentScore": 1,
+        "result": "W"
+      },
+      {
+        "game": 6,
+        "gamePk": 67473,
+        "date": "1947-10-05",
+        "home": true,
+        "yankeesScore": 6,
+        "opponentScore": 8,
+        "result": "L"
+      },
+      {
+        "game": 7,
+        "gamePk": 67474,
+        "date": "1947-10-06",
+        "home": true,
+        "yankeesScore": 5,
+        "opponentScore": 2,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "year": 1949,
+    "opponent": "Brooklyn Dodgers",
+    "wins": 4,
+    "losses": 1,
+    "games": 5,
+    "gameResults": [
+      {
+        "game": 1,
+        "gamePk": 67481,
+        "date": "1949-10-05",
+        "home": true,
+        "yankeesScore": 1,
+        "opponentScore": 0,
+        "result": "W"
+      },
+      {
+        "game": 2,
+        "gamePk": 67482,
+        "date": "1949-10-06",
+        "home": true,
+        "yankeesScore": 0,
+        "opponentScore": 1,
+        "result": "L"
+      },
+      {
+        "game": 3,
+        "gamePk": 67483,
+        "date": "1949-10-07",
+        "home": false,
+        "yankeesScore": 4,
+        "opponentScore": 3,
+        "result": "W"
+      },
+      {
+        "game": 4,
+        "gamePk": 67484,
+        "date": "1949-10-08",
+        "home": false,
+        "yankeesScore": 6,
+        "opponentScore": 4,
+        "result": "W"
+      },
+      {
+        "game": 5,
+        "gamePk": 67485,
+        "date": "1949-10-09",
+        "home": false,
+        "yankeesScore": 10,
+        "opponentScore": 6,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "year": 1950,
+    "opponent": "Philadelphia Phillies",
+    "wins": 4,
+    "losses": 0,
+    "games": 4,
+    "gameResults": [
+      {
+        "game": 1,
+        "gamePk": 67486,
+        "date": "1950-10-04",
+        "home": false,
+        "yankeesScore": 1,
+        "opponentScore": 0,
+        "result": "W"
+      },
+      {
+        "game": 2,
+        "gamePk": 67487,
+        "date": "1950-10-05",
+        "home": false,
+        "yankeesScore": 2,
+        "opponentScore": 1,
+        "result": "W"
+      },
+      {
+        "game": 3,
+        "gamePk": 67488,
+        "date": "1950-10-06",
+        "home": true,
+        "yankeesScore": 3,
+        "opponentScore": 2,
+        "result": "W"
+      },
+      {
+        "game": 4,
+        "gamePk": 67489,
+        "date": "1950-10-07",
+        "home": true,
+        "yankeesScore": 5,
+        "opponentScore": 2,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "year": 1951,
+    "opponent": "New York Giants",
+    "wins": 4,
+    "losses": 2,
+    "games": 6,
+    "gameResults": [
+      {
+        "game": 1,
+        "gamePk": 67490,
+        "date": "1951-10-04",
+        "home": true,
+        "yankeesScore": 1,
+        "opponentScore": 5,
+        "result": "L"
+      },
+      {
+        "game": 2,
+        "gamePk": 67491,
+        "date": "1951-10-05",
+        "home": true,
+        "yankeesScore": 3,
+        "opponentScore": 1,
+        "result": "W"
+      },
+      {
+        "game": 3,
+        "gamePk": 67492,
+        "date": "1951-10-06",
+        "home": false,
+        "yankeesScore": 2,
+        "opponentScore": 6,
+        "result": "L"
+      },
+      {
+        "game": 4,
+        "gamePk": 67493,
+        "date": "1951-10-08",
+        "home": false,
+        "yankeesScore": 6,
+        "opponentScore": 2,
+        "result": "W"
+      },
+      {
+        "game": 5,
+        "gamePk": 67494,
+        "date": "1951-10-09",
+        "home": false,
+        "yankeesScore": 13,
+        "opponentScore": 1,
+        "result": "W"
+      },
+      {
+        "game": 6,
+        "gamePk": 67495,
+        "date": "1951-10-10",
+        "home": true,
+        "yankeesScore": 4,
+        "opponentScore": 3,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "year": 1952,
+    "opponent": "Brooklyn Dodgers",
+    "wins": 4,
+    "losses": 3,
+    "games": 7,
+    "gameResults": [
+      {
+        "game": 1,
+        "gamePk": 67496,
+        "date": "1952-10-01",
+        "home": false,
+        "yankeesScore": 2,
+        "opponentScore": 4,
+        "result": "L"
+      },
+      {
+        "game": 2,
+        "gamePk": 67497,
+        "date": "1952-10-02",
+        "home": false,
+        "yankeesScore": 7,
+        "opponentScore": 1,
+        "result": "W"
+      },
+      {
+        "game": 3,
+        "gamePk": 67498,
+        "date": "1952-10-03",
+        "home": true,
+        "yankeesScore": 3,
+        "opponentScore": 5,
+        "result": "L"
+      },
+      {
+        "game": 4,
+        "gamePk": 67499,
+        "date": "1952-10-04",
+        "home": true,
+        "yankeesScore": 2,
+        "opponentScore": 0,
+        "result": "W"
+      },
+      {
+        "game": 5,
+        "gamePk": 67500,
+        "date": "1952-10-05",
+        "home": true,
+        "yankeesScore": 5,
+        "opponentScore": 6,
+        "result": "L"
+      },
+      {
+        "game": 6,
+        "gamePk": 67501,
+        "date": "1952-10-06",
+        "home": false,
+        "yankeesScore": 3,
+        "opponentScore": 2,
+        "result": "W"
+      },
+      {
+        "game": 7,
+        "gamePk": 67502,
+        "date": "1952-10-07",
+        "home": false,
+        "yankeesScore": 4,
+        "opponentScore": 2,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "year": 1953,
+    "opponent": "Brooklyn Dodgers",
+    "wins": 4,
+    "losses": 2,
+    "games": 6,
+    "gameResults": [
+      {
+        "game": 1,
+        "gamePk": 67503,
+        "date": "1953-09-30",
+        "home": true,
+        "yankeesScore": 9,
+        "opponentScore": 5,
+        "result": "W"
+      },
+      {
+        "game": 2,
+        "gamePk": 67504,
+        "date": "1953-10-01",
+        "home": true,
+        "yankeesScore": 4,
+        "opponentScore": 2,
+        "result": "W"
+      },
+      {
+        "game": 3,
+        "gamePk": 67505,
+        "date": "1953-10-02",
+        "home": false,
+        "yankeesScore": 2,
+        "opponentScore": 3,
+        "result": "L"
+      },
+      {
+        "game": 4,
+        "gamePk": 67506,
+        "date": "1953-10-03",
+        "home": false,
+        "yankeesScore": 3,
+        "opponentScore": 7,
+        "result": "L"
+      },
+      {
+        "game": 5,
+        "gamePk": 67507,
+        "date": "1953-10-04",
+        "home": false,
+        "yankeesScore": 11,
+        "opponentScore": 7,
+        "result": "W"
+      },
+      {
+        "game": 6,
+        "gamePk": 67508,
+        "date": "1953-10-05",
+        "home": true,
+        "yankeesScore": 4,
+        "opponentScore": 3,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "year": 1956,
+    "opponent": "Brooklyn Dodgers",
+    "wins": 4,
+    "losses": 3,
+    "games": 7,
+    "gameResults": [
+      {
+        "game": 1,
+        "gamePk": 67520,
+        "date": "1956-10-03",
+        "home": false,
+        "yankeesScore": 3,
+        "opponentScore": 6,
+        "result": "L"
+      },
+      {
+        "game": 2,
+        "gamePk": 67521,
+        "date": "1956-10-05",
+        "home": false,
+        "yankeesScore": 8,
+        "opponentScore": 13,
+        "result": "L"
+      },
+      {
+        "game": 3,
+        "gamePk": 67522,
+        "date": "1956-10-06",
+        "home": true,
+        "yankeesScore": 5,
+        "opponentScore": 3,
+        "result": "W"
+      },
+      {
+        "game": 4,
+        "gamePk": 67523,
+        "date": "1956-10-07",
+        "home": true,
+        "yankeesScore": 6,
+        "opponentScore": 2,
+        "result": "W"
+      },
+      {
+        "game": 5,
+        "gamePk": 67524,
+        "date": "1956-10-08",
+        "home": true,
+        "yankeesScore": 2,
+        "opponentScore": 0,
+        "result": "W"
+      },
+      {
+        "game": 6,
+        "gamePk": 67525,
+        "date": "1956-10-09",
+        "home": false,
+        "yankeesScore": 0,
+        "opponentScore": 1,
+        "result": "L"
+      },
+      {
+        "game": 7,
+        "gamePk": 67526,
+        "date": "1956-10-10",
+        "home": false,
+        "yankeesScore": 9,
+        "opponentScore": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "year": 1958,
+    "opponent": "Milwaukee Braves",
+    "wins": 4,
+    "losses": 3,
+    "games": 7,
+    "gameResults": [
+      {
+        "game": 1,
+        "gamePk": 67534,
+        "date": "1958-10-01",
+        "home": false,
+        "yankeesScore": 3,
+        "opponentScore": 4,
+        "result": "L"
+      },
+      {
+        "game": 2,
+        "gamePk": 67535,
+        "date": "1958-10-02",
+        "home": false,
+        "yankeesScore": 5,
+        "opponentScore": 13,
+        "result": "L"
+      },
+      {
+        "game": 3,
+        "gamePk": 67536,
+        "date": "1958-10-04",
+        "home": true,
+        "yankeesScore": 4,
+        "opponentScore": 0,
+        "result": "W"
+      },
+      {
+        "game": 4,
+        "gamePk": 67537,
+        "date": "1958-10-05",
+        "home": true,
+        "yankeesScore": 0,
+        "opponentScore": 3,
+        "result": "L"
+      },
+      {
+        "game": 5,
+        "gamePk": 67538,
+        "date": "1958-10-06",
+        "home": true,
+        "yankeesScore": 7,
+        "opponentScore": 0,
+        "result": "W"
+      },
+      {
+        "game": 6,
+        "gamePk": 67539,
+        "date": "1958-10-08",
+        "home": false,
+        "yankeesScore": 4,
+        "opponentScore": 3,
+        "result": "W"
+      },
+      {
+        "game": 7,
+        "gamePk": 67540,
+        "date": "1958-10-09",
+        "home": false,
+        "yankeesScore": 6,
+        "opponentScore": 2,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "year": 1961,
+    "opponent": "Cincinnati Reds",
+    "wins": 4,
+    "losses": 1,
+    "games": 5,
+    "gameResults": [
+      {
+        "game": 1,
+        "gamePk": 67554,
+        "date": "1961-10-04",
+        "home": true,
+        "yankeesScore": 2,
+        "opponentScore": 0,
+        "result": "W"
+      },
+      {
+        "game": 2,
+        "gamePk": 67555,
+        "date": "1961-10-05",
+        "home": true,
+        "yankeesScore": 2,
+        "opponentScore": 6,
+        "result": "L"
+      },
+      {
+        "game": 3,
+        "gamePk": 67556,
+        "date": "1961-10-07",
+        "home": false,
+        "yankeesScore": 3,
+        "opponentScore": 2,
+        "result": "W"
+      },
+      {
+        "game": 4,
+        "gamePk": 67557,
+        "date": "1961-10-08",
+        "home": false,
+        "yankeesScore": 7,
+        "opponentScore": 0,
+        "result": "W"
+      },
+      {
+        "game": 5,
+        "gamePk": 67558,
+        "date": "1961-10-09",
+        "home": false,
+        "yankeesScore": 13,
+        "opponentScore": 5,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "year": 1962,
+    "opponent": "San Francisco Giants",
+    "wins": 4,
+    "losses": 3,
+    "games": 7,
+    "gameResults": [
+      {
+        "game": 1,
+        "gamePk": 67559,
+        "date": "1962-10-04",
+        "home": false,
+        "yankeesScore": 6,
+        "opponentScore": 2,
+        "result": "W"
+      },
+      {
+        "game": 2,
+        "gamePk": 67560,
+        "date": "1962-10-05",
+        "home": false,
+        "yankeesScore": 0,
+        "opponentScore": 2,
+        "result": "L"
+      },
+      {
+        "game": 3,
+        "gamePk": 67561,
+        "date": "1962-10-07",
+        "home": true,
+        "yankeesScore": 3,
+        "opponentScore": 2,
+        "result": "W"
+      },
+      {
+        "game": 4,
+        "gamePk": 67562,
+        "date": "1962-10-08",
+        "home": true,
+        "yankeesScore": 3,
+        "opponentScore": 7,
+        "result": "L"
+      },
+      {
+        "game": 5,
+        "gamePk": 67563,
+        "date": "1962-10-10",
+        "home": true,
+        "yankeesScore": 5,
+        "opponentScore": 3,
+        "result": "W"
+      },
+      {
+        "game": 6,
+        "gamePk": 67564,
+        "date": "1962-10-15",
+        "home": false,
+        "yankeesScore": 2,
+        "opponentScore": 5,
+        "result": "L"
+      },
+      {
+        "game": 7,
+        "gamePk": 67565,
+        "date": "1962-10-16",
+        "home": false,
+        "yankeesScore": 1,
+        "opponentScore": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "year": 1977,
+    "opponent": "Los Angeles Dodgers",
+    "wins": 4,
+    "losses": 2,
+    "games": 6,
+    "gameResults": [
+      {
+        "game": 1,
+        "gamePk": 67719,
+        "date": "1977-10-11",
+        "home": true,
+        "yankeesScore": 4,
+        "opponentScore": 3,
+        "result": "W"
+      },
+      {
+        "game": 2,
+        "gamePk": 67720,
+        "date": "1977-10-12",
+        "home": true,
+        "yankeesScore": 1,
+        "opponentScore": 6,
+        "result": "L"
+      },
+      {
+        "game": 3,
+        "gamePk": 67721,
+        "date": "1977-10-14",
+        "home": false,
+        "yankeesScore": 5,
+        "opponentScore": 3,
+        "result": "W"
+      },
+      {
+        "game": 4,
+        "gamePk": 67722,
+        "date": "1977-10-15",
+        "home": false,
+        "yankeesScore": 4,
+        "opponentScore": 2,
+        "result": "W"
+      },
+      {
+        "game": 5,
+        "gamePk": 67723,
+        "date": "1977-10-16",
+        "home": false,
+        "yankeesScore": 4,
+        "opponentScore": 10,
+        "result": "L"
+      },
+      {
+        "game": 6,
+        "gamePk": 67724,
+        "date": "1977-10-18",
+        "home": true,
+        "yankeesScore": 8,
+        "opponentScore": 4,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "year": 1978,
+    "opponent": "Los Angeles Dodgers",
+    "wins": 4,
+    "losses": 2,
+    "games": 6,
+    "gameResults": [
+      {
+        "game": 1,
+        "gamePk": 67733,
+        "date": "1978-10-10",
+        "home": false,
+        "yankeesScore": 5,
+        "opponentScore": 11,
+        "result": "L"
+      },
+      {
+        "game": 2,
+        "gamePk": 67734,
+        "date": "1978-10-11",
+        "home": false,
+        "yankeesScore": 3,
+        "opponentScore": 4,
+        "result": "L"
+      },
+      {
+        "game": 3,
+        "gamePk": 67735,
+        "date": "1978-10-13",
+        "home": true,
+        "yankeesScore": 5,
+        "opponentScore": 1,
+        "result": "W"
+      },
+      {
+        "game": 4,
+        "gamePk": 67736,
+        "date": "1978-10-14",
+        "home": true,
+        "yankeesScore": 4,
+        "opponentScore": 3,
+        "result": "W"
+      },
+      {
+        "game": 5,
+        "gamePk": 67737,
+        "date": "1978-10-15",
+        "home": true,
+        "yankeesScore": 12,
+        "opponentScore": 2,
+        "result": "W"
+      },
+      {
+        "game": 6,
+        "gamePk": 67738,
+        "date": "1978-10-17",
+        "home": false,
+        "yankeesScore": 7,
+        "opponentScore": 2,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "year": 1996,
+    "opponent": "Atlanta Braves",
+    "wins": 4,
+    "losses": 2,
+    "games": 6,
+    "gameResults": [
+      {
+        "game": 1,
+        "gamePk": 68056,
+        "date": "1996-10-20",
+        "home": true,
+        "yankeesScore": 1,
+        "opponentScore": 12,
+        "result": "L"
+      },
+      {
+        "game": 2,
+        "gamePk": 68057,
+        "date": "1996-10-21",
+        "home": true,
+        "yankeesScore": 0,
+        "opponentScore": 4,
+        "result": "L"
+      },
+      {
+        "game": 3,
+        "gamePk": 68058,
+        "date": "1996-10-22",
+        "home": false,
+        "yankeesScore": 5,
+        "opponentScore": 2,
+        "result": "W"
+      },
+      {
+        "game": 4,
+        "gamePk": 68059,
+        "date": "1996-10-23",
+        "home": false,
+        "yankeesScore": 8,
+        "opponentScore": 6,
+        "result": "W"
+      },
+      {
+        "game": 5,
+        "gamePk": 68060,
+        "date": "1996-10-24",
+        "home": false,
+        "yankeesScore": 1,
+        "opponentScore": 0,
+        "result": "W"
+      },
+      {
+        "game": 6,
+        "gamePk": 68061,
+        "date": "1996-10-26",
+        "home": true,
+        "yankeesScore": 3,
+        "opponentScore": 2,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "year": 1998,
+    "opponent": "San Diego Padres",
+    "wins": 4,
+    "losses": 0,
+    "games": 4,
+    "gameResults": [
+      {
+        "game": 1,
+        "gamePk": 68122,
+        "date": "1998-10-17",
+        "home": true,
+        "yankeesScore": 9,
+        "opponentScore": 6,
+        "result": "W"
+      },
+      {
+        "game": 2,
+        "gamePk": 68123,
+        "date": "1998-10-18",
+        "home": true,
+        "yankeesScore": 9,
+        "opponentScore": 3,
+        "result": "W"
+      },
+      {
+        "game": 3,
+        "gamePk": 68124,
+        "date": "1998-10-20",
+        "home": false,
+        "yankeesScore": 5,
+        "opponentScore": 4,
+        "result": "W"
+      },
+      {
+        "game": 4,
+        "gamePk": 68125,
+        "date": "1998-10-21",
+        "home": false,
+        "yankeesScore": 3,
+        "opponentScore": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "year": 1999,
+    "opponent": "Atlanta Braves",
+    "wins": 4,
+    "losses": 0,
+    "games": 4,
+    "gameResults": [
+      {
+        "game": 1,
+        "gamePk": 2895,
+        "date": "1999-10-23",
+        "home": false,
+        "yankeesScore": 4,
+        "opponentScore": 1,
+        "result": "W"
+      },
+      {
+        "game": 2,
+        "gamePk": 2896,
+        "date": "1999-10-24",
+        "home": false,
+        "yankeesScore": 7,
+        "opponentScore": 2,
+        "result": "W"
+      },
+      {
+        "game": 3,
+        "gamePk": 2897,
+        "date": "1999-10-26",
+        "home": true,
+        "yankeesScore": 6,
+        "opponentScore": 5,
+        "result": "W"
+      },
+      {
+        "game": 4,
+        "gamePk": 3043,
+        "date": "1999-10-27",
+        "home": true,
+        "yankeesScore": 4,
+        "opponentScore": 1,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "year": 2000,
+    "opponent": "New York Mets",
+    "wins": 4,
+    "losses": 1,
+    "games": 5,
+    "gameResults": [
+      {
+        "game": 1,
+        "gamePk": 6277,
+        "date": "2000-10-21",
+        "home": true,
+        "yankeesScore": 4,
+        "opponentScore": 3,
+        "result": "W"
+      },
+      {
+        "game": 2,
+        "gamePk": 6278,
+        "date": "2000-10-22",
+        "home": true,
+        "yankeesScore": 6,
+        "opponentScore": 5,
+        "result": "W"
+      },
+      {
+        "game": 3,
+        "gamePk": 6279,
+        "date": "2000-10-24",
+        "home": false,
+        "yankeesScore": 2,
+        "opponentScore": 4,
+        "result": "L"
+      },
+      {
+        "game": 4,
+        "gamePk": 5953,
+        "date": "2000-10-25",
+        "home": false,
+        "yankeesScore": 3,
+        "opponentScore": 2,
+        "result": "W"
+      },
+      {
+        "game": 5,
+        "gamePk": 5954,
+        "date": "2000-10-26",
+        "home": false,
+        "yankeesScore": 4,
+        "opponentScore": 2,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "year": 2009,
+    "opponent": "Philadelphia Phillies",
+    "wins": 4,
+    "losses": 2,
+    "games": 6,
+    "gameResults": [
+      {
+        "game": 1,
+        "gamePk": 263181,
+        "date": "2009-10-28",
+        "home": true,
+        "yankeesScore": 1,
+        "opponentScore": 6,
+        "result": "L"
+      },
+      {
+        "game": 2,
+        "gamePk": 263182,
+        "date": "2009-10-29",
+        "home": true,
+        "yankeesScore": 3,
+        "opponentScore": 1,
+        "result": "W"
+      },
+      {
+        "game": 3,
+        "gamePk": 263183,
+        "date": "2009-10-31",
+        "home": false,
+        "yankeesScore": 8,
+        "opponentScore": 5,
+        "result": "W"
+      },
+      {
+        "game": 4,
+        "gamePk": 263184,
+        "date": "2009-11-01",
+        "home": false,
+        "yankeesScore": 7,
+        "opponentScore": 4,
+        "result": "W"
+      },
+      {
+        "game": 5,
+        "gamePk": 263185,
+        "date": "2009-11-02",
+        "home": false,
+        "yankeesScore": 6,
+        "opponentScore": 8,
+        "result": "L"
+      },
+      {
+        "game": 6,
+        "gamePk": 263186,
+        "date": "2009-11-04",
+        "home": true,
+        "yankeesScore": 7,
+        "opponentScore": 3,
+        "result": "W"
+      }
+    ]
+  }
+]

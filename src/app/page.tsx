@@ -22,7 +22,7 @@ const sections = [
     description:
       "Explore the people, seasons, championships, records, and moments that shaped the Yankees.",
     detail: "HISTORY · RECORDS · LEGENDS",
-    href: "#history",
+    href: "/history",
   },
   {
     number: "04",
@@ -77,7 +77,7 @@ export default function Home() {
                 Explore the Yankees →
               </a>
               <a
-                href="#history"
+                href="/history"
                 className="border border-white/20 px-7 py-4 text-xs font-bold uppercase tracking-[0.15em] text-white transition hover:border-[#c5a253] hover:text-[#d5b66a]"
               >
                 Discover the history
