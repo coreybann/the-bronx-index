@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import ProspectDirectory from "./ProspectDirectory";
+import ProspectSections from "./ProspectSections";
 import { getYankeesProspects } from "@/lib/yankeesProspects";
 
 export const metadata: Metadata = {
@@ -31,7 +31,7 @@ export default async function ProspectsPage() {
       </section>
 
       <section className="mx-auto max-w-7xl px-6 py-16 lg:px-10">
-        <ProspectDirectory players={players} />
+        <ProspectSections players={players} />
       </section>
 
       <section className="mx-auto max-w-7xl px-6 pb-16 lg:px-10">

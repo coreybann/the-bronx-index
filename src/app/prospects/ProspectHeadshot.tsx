@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useSyncExternalStore } from "react";
 
 type Props = {
   playerId: number;
@@ -8,12 +8,23 @@ type Props = {
   size?: "small" | "large";
 };
 
+const subscribe = () => () => {};
+const getSnapshot = () => true;
+const getServerSnapshot = () => false;
+
 export default function ProspectHeadshot({
   playerId,
   playerName,
   size = "small",
 }: Props) {
   const [failed, setFailed] = useState(false);
+
+  // Wait until hydration before requesting images.
+  const hydrated = useSyncExternalStore(
+    subscribe,
+    getSnapshot,
+    getServerSnapshot
+  );
 
   const isLarge = size === "large";
 
@@ -23,7 +34,7 @@ export default function ProspectHeadshot({
 
   const imageWidth = isLarge ? 500 : 120;
 
-  if (failed) {
+  if (!hydrated || failed) {
     return (
       <div
         role="img"
@@ -46,6 +57,7 @@ export default function ProspectHeadshot({
       src={`https://img.mlbstatic.com/mlb-photos/image/upload/w_${imageWidth},q_auto:best/v1/people/${playerId}/headshot/67/current`}
       alt={playerName}
       loading="lazy"
+      decoding="async"
       onError={() => setFailed(true)}
       className={`${dimensions} shrink-0 rounded-full bg-[#142a47] object-cover`}
     />
