@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import ProspectSections from "./ProspectSections";
 import { getYankeesProspects } from "@/lib/yankeesProspects";
+import { getYankeesAffiliateStandings } from "@/lib/yankeesAffiliateStandings";
 
 export const metadata: Metadata = {
   title: "Yankees Prospects | The Bronx Index",
@@ -9,7 +10,10 @@ export const metadata: Metadata = {
 };
 
 export default async function ProspectsPage() {
-  const players = await getYankeesProspects(2026);
+  const [players, standings] = await Promise.all([
+    getYankeesProspects(2026),
+    getYankeesAffiliateStandings(2026),
+  ]);
   return (
     <main className="min-h-screen bg-[#07152b] text-white">
       <section className="border-b border-white/10 bg-[#0b1d36]">
@@ -31,7 +35,7 @@ export default async function ProspectsPage() {
       </section>
 
       <section className="mx-auto max-w-7xl px-6 py-16 lg:px-10">
-        <ProspectSections players={players} />
+        <ProspectSections players={players} standings={standings} />
       </section>
 
       <section className="mx-auto max-w-7xl px-6 pb-16 lg:px-10">

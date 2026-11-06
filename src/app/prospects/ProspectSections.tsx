@@ -5,20 +5,24 @@ import type { YankeesProspect } from "@/lib/yankeesProspects";
 import ProspectDirectory from "./ProspectDirectory";
 import ProspectLeaderboards from "./leaderboards/ProspectLeaderboards";
 import ProspectRankings from "./ProspectRankings";
+import ProspectAffiliates from "./ProspectAffiliates";
+import type { YankeesAffiliateStanding } from "@/lib/yankeesAffiliateStandings";
 
 type Props = {
   players: YankeesProspect[];
+  standings: YankeesAffiliateStanding[];
 };
 
-export default function ProspectSections({ players }: Props) {
+export default function ProspectSections({ players, standings }: Props) {
   const [activeTab, setActiveTab] = useState<
-    "directory" | "leaderboards" | "rankings"
+    "directory" | "leaderboards" | "rankings" | "affiliates"
   >("directory");
 
   const tabs = [
     { id: "directory" as const, label: "Prospect Directory" },
     { id: "leaderboards" as const, label: "Minor League Leaderboards" },
     { id: "rankings" as const, label: "Prospect Rankings" },
+    { id: "affiliates" as const, label: "Minor League Affiliates" },
   ];
 
   return (
@@ -43,8 +47,10 @@ export default function ProspectSections({ players }: Props) {
         <ProspectDirectory players={players} />
       ) : activeTab === "leaderboards" ? (
         <ProspectLeaderboards />
-      ) : (
+      ) : activeTab === "rankings" ? (
         <ProspectRankings />
+      ) : (
+        <ProspectAffiliates players={players} standings={standings} />
       )}
     </div>
   );
