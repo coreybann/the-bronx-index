@@ -14,7 +14,7 @@ const sections = [
     description:
       "Explore the organization's prospects, minor league affiliates, draft history, and player development.",
     detail: "PROSPECTS · AFFILIATES · DRAFT",
-    href: "#farm-system",
+    href: "/prospects",
   },
   {
     number: "03",
