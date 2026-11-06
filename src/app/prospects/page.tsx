@@ -48,9 +48,10 @@ export default async function ProspectsPage() {
         </h2>
 
         <p className="mt-5 max-w-3xl text-sm leading-7 text-slate-400">
-          This section will bring together prospect rankings, minor league
-          statistics, scouting profiles, and organizational development
-          analysis in one destination.
+          Explore the Yankees organization from the Dominican Summer League
+          to Triple-A. Compare minor league performance, discover emerging
+          talent, explore MLB Pipeline prospect rankings, and follow all
+          seven Yankees affiliates through their 2026 seasons.
         </p>
       </section>
     </main>
