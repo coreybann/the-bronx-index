@@ -134,10 +134,81 @@ export default function ChampionshipComparison() {
         </table>
       </div>
 
+      <div className="mt-10">
+        <h3 className="text-xl font-bold">
+          World Series Performance
+        </h3>
+        <p className="mt-2 text-sm text-slate-400">
+          Compare each championship team&apos;s World Series opponent,
+          series record, and winning percentage.
+        </p>
+
+        <div className="mt-6 overflow-x-auto border border-white/10 bg-[#0d203b]">
+          <table className="w-full min-w-[460px] text-center text-sm">
+            <thead>
+              <tr className="border-b border-white/15">
+                <th className="px-4 py-5 text-left text-slate-400">
+                  Statistic
+                </th>
+                <th className="px-4 py-5 text-[#d5b66a]">
+                  {firstYear}
+                </th>
+                <th className="px-4 py-5 text-[#d5b66a]">
+                  {secondYear}
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="border-b border-white/10">
+                <td className="px-4 py-5 text-left font-medium text-slate-300">
+                  Opponent
+                </td>
+                <td className="px-4 py-5 font-semibold">{first.opponent}</td>
+                <td className="px-4 py-5 font-semibold">{second.opponent}</td>
+              </tr>
+              <tr className="border-b border-white/10">
+                <td className="px-4 py-5 text-left font-medium text-slate-300">
+                  Series Record
+                </td>
+                <td className="px-4 py-5 font-semibold">
+                  {first.wins}–{first.losses}
+                </td>
+                <td className="px-4 py-5 font-semibold">
+                  {second.wins}–{second.losses}
+                </td>
+              </tr>
+              <tr>
+                <td className="px-4 py-5 text-left font-medium text-slate-300">
+                  Winning %
+                </td>
+                <td className={`px-4 py-5 font-bold ${
+                  first.wins / (first.wins + first.losses) >
+                  second.wins / (second.wins + second.losses)
+                    ? "text-emerald-400"
+                    : "text-white"
+                }`}>
+                  {(first.wins / (first.wins + first.losses))
+                    .toFixed(3).replace(/^0/, "")}
+                </td>
+                <td className={`px-4 py-5 font-bold ${
+                  second.wins / (second.wins + second.losses) >
+                  first.wins / (first.wins + first.losses)
+                    ? "text-emerald-400"
+                    : "text-white"
+                }`}>
+                  {(second.wins / (second.wins + second.losses))
+                    .toFixed(3).replace(/^0/, "")}
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
       <p className="mt-4 text-xs text-slate-500">
-        Source: MLB Stats API. Regular-season statistics only.
+        Source: MLB Stats API. Regular-season and World Series statistics.
         Comparisons are descriptive and do not adjust for differences
-        between baseball eras.
+        between baseball eras or opponent strength.
       </p>
     </section>
   );
