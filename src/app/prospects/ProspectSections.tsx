@@ -4,6 +4,7 @@ import { useState } from "react";
 import type { YankeesProspect } from "@/lib/yankeesProspects";
 import ProspectDirectory from "./ProspectDirectory";
 import ProspectLeaderboards from "./leaderboards/ProspectLeaderboards";
+import ProspectRankings from "./ProspectRankings";
 
 type Props = {
   players: YankeesProspect[];
@@ -11,12 +12,13 @@ type Props = {
 
 export default function ProspectSections({ players }: Props) {
   const [activeTab, setActiveTab] = useState<
-    "directory" | "leaderboards"
+    "directory" | "leaderboards" | "rankings"
   >("directory");
 
   const tabs = [
     { id: "directory" as const, label: "Prospect Directory" },
     { id: "leaderboards" as const, label: "Minor League Leaderboards" },
+    { id: "rankings" as const, label: "Prospect Rankings" },
   ];
 
   return (
@@ -39,8 +41,10 @@ export default function ProspectSections({ players }: Props) {
 
       {activeTab === "directory" ? (
         <ProspectDirectory players={players} />
-      ) : (
+      ) : activeTab === "leaderboards" ? (
         <ProspectLeaderboards />
+      ) : (
+        <ProspectRankings />
       )}
     </div>
   );
