@@ -104,6 +104,9 @@ case "kbb":
 
 case "h9":
   return String(stat.hitsPer9Inn ?? "—");
+    case "pitchesPerInning":
+      return String(stat.pitchesPerInning ?? "—");
+
     case "babip":
       return String(stat.babip ?? "—");
 
@@ -124,6 +127,16 @@ case "h9":
       return number("homeRuns") > 0
         ? number("atBatsPerHomeRun").toFixed(1)
         : "—";
+
+    case "sbRate": {
+      const stolenBases = number("stolenBases");
+      const caughtStealing = number("caughtStealing");
+      const attempts = stolenBases + caughtStealing;
+
+      return attempts > 0
+        ? `${((stolenBases / attempts) * 100).toFixed(1)}%`
+        : "—";
+    }
 
     case "goAo":
       return String(stat.groundOutsToAirouts ?? "—");
@@ -253,8 +266,7 @@ useEffect(() => {
         { label: "GS", key: "gamesStarted" },
         { label: "IP", key: "inningsPitched" },
         { label: "ERA", key: "era" },
-        { label: "WHIP", key: "whip" },
-        { label: "SO", key: "strikeOuts" },
+          { label: "SO", key: "strikeOuts" },
         { label: "BB", key: "baseOnBalls" },
         { label: "HR", key: "homeRuns" },
       ]
@@ -285,6 +297,7 @@ useEffect(() => {
       { label: "HR/9", key: "hr9" },
       { label: "K/BB", key: "kbb" },
       { label: "H/9", key: "h9" },
+      { label: "P/IP", key: "pitchesPerInning" },
       { label: "GO/AO", key: "goAo" },
     ]
   : [
@@ -293,6 +306,7 @@ useEffect(() => {
       { label: "BB%", key: "bbRate" },
       { label: "K%", key: "kRate" },
       { label: "AB/HR", key: "abPerHr" },
+      { label: "SB%", key: "sbRate" },
       { label: "GO/AO", key: "goAo" },
     ];
 
@@ -469,7 +483,7 @@ useEffect(() => {
         <h4 className="mb-4 text-sm font-bold text-white">
           Expected Performance
         </h4>
-        <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
           {[
             ["ERA", statcast.statistics.era, 2],
             ["xERA", statcast.statistics.expectedERA, 2],
@@ -519,7 +533,7 @@ useEffect(() => {
         <h4 className="mb-4 text-sm font-bold text-white">
           Pitching Discipline
         </h4>
-        <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+        <div className="grid grid-cols-2 gap-3">
           {[
             ["Strikeout%", statcast.statistics.strikeoutPercentage],
             ["Walk%", statcast.statistics.walkPercentage],
@@ -558,21 +572,29 @@ useEffect(() => {
           (a.usagePercentage ?? 0)
       )
       .map((pitch) => {
+        const pitchCodes: Record<string, string[]> = {
+          "4-Seam Fastball": ["FF"],
+          "Sinker": ["SI"],
+          "Cutter": ["FC"],
+          "Slider": ["SL"],
+          "Sweeper": ["ST"],
+          "Curveball": ["CU", "KC"],
+          "Changeup": ["CH"],
+          "Split-Finger": ["FS"],
+          "Knuckle Curve": ["KC"],
+        };
+
+        const matchingCodes = pitchCodes[pitch.pitchType] ?? [];
+
         const metrics = pitchMetrics?.pitchMetrics.find(
-          (item) =>
-            item.pitchType === pitch.pitchType ||
-            item.pitchType === ({
-              "4-Seam Fastball": "FF",
-              "Sinker": "SI",
-              "Cutter": "FC",
-              "Slider": "SL",
-              "Sweeper": "ST",
-              "Curveball": "CU",
-              "Changeup": "CH",
-              "Split-Finger": "FS",
-              "Knuckle Curve": "KC",
-            } as Record<string, string>)[pitch.pitchType]
-        );
+          (item) => item.pitchType === pitch.pitchType
+        ) ?? matchingCodes
+          .map((code) =>
+            pitchMetrics?.pitchMetrics.find(
+              (item) => item.pitchType === code
+            )
+          )
+          .find((item) => item !== undefined);
 
         return (
         <div
@@ -804,7 +826,7 @@ useEffect(() => {
           <h4 className="mb-4 text-sm font-bold text-white">
             Quality of Contact
           </h4>
-          <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+          <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
             {[
               ["Barrel%", statcast.statistics.barrelPercentage, "%"],
               ["Hard-Hit%", statcast.statistics.hardHitPercentage, "%"],
@@ -829,7 +851,7 @@ useEffect(() => {
           <h4 className="mb-4 text-sm font-bold text-white">
             Plate Discipline
           </h4>
-          <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+          <div className="grid grid-cols-2 gap-3">
             {[
               ["Strikeout%", statcast.statistics.strikeoutPercentage],
               ["Walk%", statcast.statistics.walkPercentage],
@@ -854,11 +876,13 @@ useEffect(() => {
             <h4 className="text-sm font-bold text-white">
               Hitter Percentile Rankings
             </h4>
-            <p className="mt-2 text-xs text-slate-500">
-              Official Baseball Savant rankings are shown when available.
-              Missing offensive rankings use The Bronx Index calculations
-              against same-season MLB hitters with 100+ plate appearances
-              and metric-specific sample requirements. Higher is better.
+            <p className="mt-2 text-sm leading-relaxed text-slate-400">
+              Percentiles show how a player compares with other MLB hitters.
+              Higher numbers indicate better performance. Official Baseball
+              Savant rankings are used when available. Rankings labeled
+              &quot;Bronx Index&quot; are calculated using same-season MLB
+              hitters with at least 100 plate appearances and additional
+              metric-specific requirements.
             </p>
           </div>
 

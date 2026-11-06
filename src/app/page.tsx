@@ -44,39 +44,6 @@ export default function Home() {
         </p>
       </div>
 
-      {/* Masthead */}
-      <header className="border-b border-white/10">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-6 lg:px-10">
-          <a href="#" className="group">
-            <div className="text-xl font-black tracking-[0.18em]">
-              THE BRONX
-            </div>
-            <div className="mt-0.5 text-[10px] font-semibold tracking-[0.48em] text-[#c5a253]">
-              INDEX
-            </div>
-          </a>
-
-          <nav className="hidden items-center gap-8 text-[11px] font-semibold uppercase tracking-[0.16em] text-slate-300 md:flex">
-            <a href="/team" className="transition hover:text-[#d5b66a]">
-              Team
-            </a>
-            <a href="#farm-system" className="transition hover:text-[#d5b66a]">
-              Prospects
-            </a>
-            <a href="#history" className="transition hover:text-[#d5b66a]">
-              History
-            </a>
-            <a href="#front-office" className="transition hover:text-[#d5b66a]">
-              Front Office
-            </a>
-          </nav>
-
-          <div className="hidden border border-[#c5a253]/50 px-4 py-2 text-[10px] font-bold uppercase tracking-widest text-[#d5b66a] sm:block">
-            NYY · EST. 1903
-          </div>
-        </div>
-      </header>
-
       {/* Hero */}
       <section className="relative overflow-hidden border-b border-white/10">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_75%_45%,rgba(197,162,83,0.10),transparent_45%)]" />

@@ -209,7 +209,7 @@ async function PlayerProfile({
             </h2>
           </div>
 
-          <div className="grid grid-cols-2 gap-px border border-white/10 bg-white/10 sm:grid-cols-3">
+          <div className="grid grid-cols-2 gap-px border border-white/10 bg-white/10 sm:grid-cols-3 lg:grid-cols-5">
             {info.map(([label, value]) => (
               <div
                 key={label}
