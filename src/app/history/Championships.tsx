@@ -102,6 +102,53 @@ export default function Championships() {
 
           <div className="mt-10 border-t border-white/10 pt-8">
             <h4 className="text-xl font-bold">
+              Regular Season Performance
+            </h4>
+            <p className="mt-2 text-sm text-slate-400">
+              How the {selected.year} Yankees performed before the postseason.
+            </p>
+
+            <div className="mt-6 grid grid-cols-2 gap-4 lg:grid-cols-5">
+              {[
+                {
+                  label: "Record",
+                  value: `${selected.regularSeason.wins}–${selected.regularSeason.losses}`,
+                },
+                {
+                  label: "Winning %",
+                  value: selected.regularSeason.winningPercentage,
+                },
+                {
+                  label: "Runs Scored",
+                  value: selected.regularSeason.runsScored,
+                },
+                {
+                  label: "Runs Allowed",
+                  value: selected.regularSeason.runsAllowed,
+                },
+                {
+                  label: "Run Differential",
+                  value: selected.regularSeason.runsScored -
+                    selected.regularSeason.runsAllowed,
+                },
+              ].map((stat) => (
+                <div
+                  key={stat.label}
+                  className="border border-white/10 bg-[#07152b] p-5"
+                >
+                  <p className="text-xs uppercase tracking-wider text-slate-400">
+                    {stat.label}
+                  </p>
+                  <p className="mt-3 text-2xl font-black text-[#d5b66a]">
+                    {stat.value}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="mt-10 border-t border-white/10 pt-8">
+            <h4 className="text-xl font-bold">
               World Series Game Results
             </h4>
             <p className="mt-2 text-sm text-slate-400">

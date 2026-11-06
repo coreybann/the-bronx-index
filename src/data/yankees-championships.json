@@ -60,7 +60,14 @@
         "opponentScore": 4,
         "result": "W"
       }
-    ]
+    ],
+    "regularSeason": {
+      "wins": 98,
+      "losses": 54,
+      "winningPercentage": ".645",
+      "runsScored": 823,
+      "runsAllowed": 622
+    }
   },
   {
     "year": 1927,
@@ -105,7 +112,14 @@
         "opponentScore": 3,
         "result": "W"
       }
-    ]
+    ],
+    "regularSeason": {
+      "wins": 110,
+      "losses": 44,
+      "winningPercentage": ".714",
+      "runsScored": 975,
+      "runsAllowed": 599
+    }
   },
   {
     "year": 1928,
@@ -150,7 +164,14 @@
         "opponentScore": 3,
         "result": "W"
       }
-    ]
+    ],
+    "regularSeason": {
+      "wins": 101,
+      "losses": 53,
+      "winningPercentage": ".656",
+      "runsScored": 894,
+      "runsAllowed": 685
+    }
   },
   {
     "year": 1932,
@@ -195,7 +216,14 @@
         "opponentScore": 6,
         "result": "W"
       }
-    ]
+    ],
+    "regularSeason": {
+      "wins": 107,
+      "losses": 47,
+      "winningPercentage": ".695",
+      "runsScored": 1002,
+      "runsAllowed": 724
+    }
   },
   {
     "year": 1936,
@@ -258,7 +286,14 @@
         "opponentScore": 5,
         "result": "W"
       }
-    ]
+    ],
+    "regularSeason": {
+      "wins": 102,
+      "losses": 51,
+      "winningPercentage": ".667",
+      "runsScored": 1065,
+      "runsAllowed": 731
+    }
   },
   {
     "year": 1937,
@@ -312,7 +347,14 @@
         "opponentScore": 2,
         "result": "W"
       }
-    ]
+    ],
+    "regularSeason": {
+      "wins": 102,
+      "losses": 52,
+      "winningPercentage": ".662",
+      "runsScored": 979,
+      "runsAllowed": 671
+    }
   },
   {
     "year": 1938,
@@ -357,7 +399,14 @@
         "opponentScore": 3,
         "result": "W"
       }
-    ]
+    ],
+    "regularSeason": {
+      "wins": 99,
+      "losses": 53,
+      "winningPercentage": ".651",
+      "runsScored": 966,
+      "runsAllowed": 710
+    }
   },
   {
     "year": 1939,
@@ -402,7 +451,14 @@
         "opponentScore": 4,
         "result": "W"
       }
-    ]
+    ],
+    "regularSeason": {
+      "wins": 106,
+      "losses": 45,
+      "winningPercentage": ".702",
+      "runsScored": 967,
+      "runsAllowed": 556
+    }
   },
   {
     "year": 1941,
@@ -456,7 +512,14 @@
         "opponentScore": 1,
         "result": "W"
       }
-    ]
+    ],
+    "regularSeason": {
+      "wins": 101,
+      "losses": 53,
+      "winningPercentage": ".656",
+      "runsScored": 830,
+      "runsAllowed": 631
+    }
   },
   {
     "year": 1943,
@@ -510,7 +573,14 @@
         "opponentScore": 0,
         "result": "W"
       }
-    ]
+    ],
+    "regularSeason": {
+      "wins": 98,
+      "losses": 56,
+      "winningPercentage": ".636",
+      "runsScored": 669,
+      "runsAllowed": 542
+    }
   },
   {
     "year": 1947,
@@ -582,7 +652,14 @@
         "opponentScore": 2,
         "result": "W"
       }
-    ]
+    ],
+    "regularSeason": {
+      "wins": 97,
+      "losses": 57,
+      "winningPercentage": ".630",
+      "runsScored": 794,
+      "runsAllowed": 568
+    }
   },
   {
     "year": 1949,
@@ -636,7 +713,14 @@
         "opponentScore": 6,
         "result": "W"
       }
-    ]
+    ],
+    "regularSeason": {
+      "wins": 97,
+      "losses": 57,
+      "winningPercentage": ".630",
+      "runsScored": 829,
+      "runsAllowed": 637
+    }
   },
   {
     "year": 1950,
@@ -681,7 +765,14 @@
         "opponentScore": 2,
         "result": "W"
       }
-    ]
+    ],
+    "regularSeason": {
+      "wins": 98,
+      "losses": 56,
+      "winningPercentage": ".636",
+      "runsScored": 914,
+      "runsAllowed": 691
+    }
   },
   {
     "year": 1951,
@@ -744,7 +835,14 @@
         "opponentScore": 3,
         "result": "W"
       }
-    ]
+    ],
+    "regularSeason": {
+      "wins": 98,
+      "losses": 56,
+      "winningPercentage": ".636",
+      "runsScored": 798,
+      "runsAllowed": 621
+    }
   },
   {
     "year": 1952,
@@ -816,7 +914,14 @@
         "opponentScore": 2,
         "result": "W"
       }
-    ]
+    ],
+    "regularSeason": {
+      "wins": 95,
+      "losses": 59,
+      "winningPercentage": ".617",
+      "runsScored": 727,
+      "runsAllowed": 557
+    }
   },
   {
     "year": 1953,
@@ -879,7 +984,14 @@
         "opponentScore": 3,
         "result": "W"
       }
-    ]
+    ],
+    "regularSeason": {
+      "wins": 99,
+      "losses": 52,
+      "winningPercentage": ".656",
+      "runsScored": 801,
+      "runsAllowed": 547
+    }
   },
   {
     "year": 1956,
@@ -951,7 +1063,14 @@
         "opponentScore": 0,
         "result": "W"
       }
-    ]
+    ],
+    "regularSeason": {
+      "wins": 97,
+      "losses": 57,
+      "winningPercentage": ".630",
+      "runsScored": 857,
+      "runsAllowed": 631
+    }
   },
   {
     "year": 1958,
@@ -1023,7 +1142,14 @@
         "opponentScore": 2,
         "result": "W"
       }
-    ]
+    ],
+    "regularSeason": {
+      "wins": 92,
+      "losses": 62,
+      "winningPercentage": ".597",
+      "runsScored": 759,
+      "runsAllowed": 577
+    }
   },
   {
     "year": 1961,
@@ -1077,7 +1203,14 @@
         "opponentScore": 5,
         "result": "W"
       }
-    ]
+    ],
+    "regularSeason": {
+      "wins": 109,
+      "losses": 53,
+      "winningPercentage": ".673",
+      "runsScored": 827,
+      "runsAllowed": 612
+    }
   },
   {
     "year": 1962,
@@ -1149,7 +1282,14 @@
         "opponentScore": 0,
         "result": "W"
       }
-    ]
+    ],
+    "regularSeason": {
+      "wins": 96,
+      "losses": 66,
+      "winningPercentage": ".593",
+      "runsScored": 817,
+      "runsAllowed": 680
+    }
   },
   {
     "year": 1977,
@@ -1212,7 +1352,14 @@
         "opponentScore": 4,
         "result": "W"
       }
-    ]
+    ],
+    "regularSeason": {
+      "wins": 100,
+      "losses": 62,
+      "winningPercentage": ".617",
+      "runsScored": 831,
+      "runsAllowed": 651
+    }
   },
   {
     "year": 1978,
@@ -1275,7 +1422,14 @@
         "opponentScore": 2,
         "result": "W"
       }
-    ]
+    ],
+    "regularSeason": {
+      "wins": 100,
+      "losses": 63,
+      "winningPercentage": ".613",
+      "runsScored": 735,
+      "runsAllowed": 582
+    }
   },
   {
     "year": 1996,
@@ -1338,7 +1492,14 @@
         "opponentScore": 2,
         "result": "W"
       }
-    ]
+    ],
+    "regularSeason": {
+      "wins": 92,
+      "losses": 70,
+      "winningPercentage": ".568",
+      "runsScored": 871,
+      "runsAllowed": 787
+    }
   },
   {
     "year": 1998,
@@ -1383,7 +1544,14 @@
         "opponentScore": 0,
         "result": "W"
       }
-    ]
+    ],
+    "regularSeason": {
+      "wins": 114,
+      "losses": 48,
+      "winningPercentage": ".704",
+      "runsScored": 965,
+      "runsAllowed": 656
+    }
   },
   {
     "year": 1999,
@@ -1428,7 +1596,14 @@
         "opponentScore": 1,
         "result": "W"
       }
-    ]
+    ],
+    "regularSeason": {
+      "wins": 98,
+      "losses": 64,
+      "winningPercentage": ".605",
+      "runsScored": 900,
+      "runsAllowed": 731
+    }
   },
   {
     "year": 2000,
@@ -1482,7 +1657,14 @@
         "opponentScore": 2,
         "result": "W"
       }
-    ]
+    ],
+    "regularSeason": {
+      "wins": 87,
+      "losses": 74,
+      "winningPercentage": ".540",
+      "runsScored": 871,
+      "runsAllowed": 814
+    }
   },
   {
     "year": 2009,
@@ -1545,6 +1727,13 @@
         "opponentScore": 3,
         "result": "W"
       }
-    ]
+    ],
+    "regularSeason": {
+      "wins": 103,
+      "losses": 59,
+      "winningPercentage": ".636",
+      "runsScored": 915,
+      "runsAllowed": 753
+    }
   }
 ]
