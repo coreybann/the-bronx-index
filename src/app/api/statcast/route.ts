@@ -1,4 +1,7 @@
 
+import { getLeagueStatcastHitters } from "@/lib/leagueStatcastHitters";
+import { calculateHitterPercentiles } from "@/lib/hitterPercentiles";
+
 function cleanText(value: string): string {
   return value
     .replace(/<[^>]*>/g, "")
@@ -265,6 +268,57 @@ if (group === "pitching") {
     }
   }
 }
+if (group === "hitting") {
+  const percentileTableMatch = html.match(
+    /<table\b(?=[^>]*\bid=["']percentileRankings["'])[^>]*>([\s\S]*?)<\/table>/i
+  );
+
+  if (percentileTableMatch) {
+    const percentileRows = [
+      ...percentileTableMatch[1].matchAll(
+        /<tr\b[^>]*>([\s\S]*?)<\/tr>/gi
+      ),
+    ];
+
+    const percentileKeys = [
+      "batting",
+      "baseRunning",
+      "fielding",
+      "xwOBA",
+      "xBA",
+      "xSLG",
+      "exitVelocity",
+      "barrel",
+      "hardHit",
+      "sweetSpot",
+      "batSpeed",
+      "squaredUp",
+      "chase",
+      "whiff",
+      "strikeout",
+      "walk",
+      "rangeOAA",
+      "armValue",
+      "armStrength",
+      "firstBaseReceiving",
+      "sprintSpeed",
+    ];
+
+    for (const row of percentileRows) {
+      const cells = [
+        ...row[1].matchAll(/<t[dh]\b[^>]*>([\s\S]*?)<\/t[dh]>/gi),
+      ].map((cell) => cleanText(cell[1]));
+
+      if (cells[0] === season) {
+        percentileKeys.forEach((key, index) => {
+          percentileRankings[key] = parseValue(cells[index + 1]);
+        });
+        break;
+      }
+    }
+  }
+}
+
 if (group === "pitching") {
   if (values.length < 22) {
     return Response.json(
@@ -310,11 +364,31 @@ statistics: {
     },
   });
 }
+    let bronxIndexPercentiles: Record<string, number | null> | null = null;
+
+    try {
+      const leagueHitters = await getLeagueStatcastHitters(seasonNumber);
+      const leaguePlayer = leagueHitters.find(
+        (hitter) => hitter.player_id === Number(playerId)
+      );
+
+      if (leaguePlayer) {
+        bronxIndexPercentiles = calculateHitterPercentiles(
+          leaguePlayer,
+          leagueHitters
+        );
+      }
+    } catch (error) {
+      console.error("Bronx Index percentile calculation failed:", error);
+    }
+
     return Response.json({
       playerId,
       playerName: player.fullName,
       season,
       source: "Baseball Savant",
+      percentileRankings,
+      bronxIndexPercentiles,
       statistics: {
         age: parseValue(values[1]),
         pitches: parseValue(values[3]),

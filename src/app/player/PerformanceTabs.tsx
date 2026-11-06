@@ -52,6 +52,7 @@ type StatcastData = {
   hardHitPercentage: number | null;
 }[];
   percentileRankings?: Record<string, number | null>;
+  bronxIndexPercentiles?: Record<string, number | null> | null;
   statistics: {
     // Hitter metrics
     expectedBattingAverage?: number | null;
@@ -149,12 +150,18 @@ const [pitchMetrics, setPitchMetrics] =
 const [pitchMetricsLoading, setPitchMetricsLoading] = useState(false);
 
 
-const latestSeason = stats.length
-  ? stats[stats.length - 1].season
-  : undefined;
+const availableSeasons = [...new Set(
+  stats.map((split) => split.season).filter((season): season is string => Boolean(season))
+)].sort((a, b) => Number(b) - Number(a));
+
+const latestSeason = availableSeasons[0];
+
+const [selectedSeason, setSelectedSeason] = useState<string>(
+  latestSeason ?? ""
+);
 
 useEffect(() => {
-  if (!latestSeason) {
+  if (!selectedSeason) {
     setStatcast(null);
     return;
   }
@@ -162,11 +169,12 @@ useEffect(() => {
   const controller = new AbortController();
 
   async function fetchStatcast() {
+    setStatcast(null);
     setStatcastLoading(true);
 
     try {
       const response = await fetch(
-        `/api/statcast?playerId=${playerId}&season=${latestSeason}&group=${isPitcher ? "pitching" : "hitting"}`,
+        `/api/statcast?playerId=${playerId}&season=${selectedSeason}&group=${isPitcher ? "pitching" : "hitting"}`,
         { signal: controller.signal }
       );
 
@@ -191,10 +199,10 @@ useEffect(() => {
   fetchStatcast();
 
   return () => controller.abort();
-}, [playerId, isPitcher, latestSeason]);
+}, [playerId, isPitcher, selectedSeason]);
 
 useEffect(() => {
-  if (!isPitcher || !latestSeason) {
+  if (!isPitcher || !selectedSeason) {
     return;
   }
 
@@ -206,7 +214,7 @@ useEffect(() => {
 
     try {
       const response = await fetch(
-        `/api/pitch-metrics?playerId=${playerId}&season=${latestSeason}`,
+        `/api/pitch-metrics?playerId=${playerId}&season=${selectedSeason}`,
         { signal: controller.signal }
       );
 
@@ -236,7 +244,7 @@ useEffect(() => {
   fetchPitchMetrics();
 
   return () => controller.abort();
-}, [playerId, isPitcher, latestSeason]);
+}, [playerId, isPitcher, selectedSeason]);
 
 
   const traditionalColumns = isPitcher
@@ -295,6 +303,34 @@ useEffect(() => {
 
   return (
     <div>
+      <div className="mb-6 flex items-center justify-between gap-4 border border-white/10 bg-[#0c1c33] p-4">
+        <div>
+          <label
+            htmlFor="player-season"
+            className="text-xs font-bold uppercase tracking-widest text-[#d5b66a]"
+          >
+            Select Season
+          </label>
+          <p className="mt-1 text-xs text-slate-500">
+            Explore player performance by MLB season.
+          </p>
+        </div>
+
+        <select
+          id="player-season"
+          value={selectedSeason}
+          onChange={(event) => setSelectedSeason(event.target.value)}
+          disabled={availableSeasons.length === 0}
+          className="min-w-28 border border-white/20 bg-[#07152b] px-4 py-2 text-sm font-semibold text-white outline-none focus:border-[#d5b66a]"
+        >
+          {availableSeasons.map((season) => (
+            <option key={season} value={season}>
+              {season}
+            </option>
+          ))}
+        </select>
+      </div>
+
       <div className="mb-6 flex gap-2 border-b border-white/10">
         <button
           onClick={() => setActiveTab("traditional")}
@@ -352,7 +388,11 @@ useEffect(() => {
               {stats.map((split, index) => (
                 <tr
                   key={`${split.season}-${index}`}
-                  className="border-b border-white/5 hover:bg-white/[0.03]"
+                  className={`border-b border-white/5 transition-colors ${
+                    split.season === selectedSeason
+                      ? "bg-[#d5b66a]/10 shadow-[inset_3px_0_0_#d5b66a]"
+                      : "hover:bg-white/[0.03]"
+                  }`}
                 >
                   <td className="px-5 py-4 font-bold text-[#d5b66a]">
                     {split.season ?? "—"}
@@ -735,6 +775,8 @@ useEffect(() => {
           </div>
   ) : (
     <>
+      {statcastSubTab === "overview" && (
+        <>
         <div>
           <h4 className="mb-4 text-sm font-bold text-white">
             Expected Statistics
@@ -803,7 +845,130 @@ useEffect(() => {
             ))}
           </div>
         </div>
-      </> 
+        </>
+      )}
+
+      {statcastSubTab === "percentiles" && (
+        <div className="space-y-7">
+          <div>
+            <h4 className="text-sm font-bold text-white">
+              Hitter Percentile Rankings
+            </h4>
+            <p className="mt-2 text-xs text-slate-500">
+              Official Baseball Savant rankings are shown when available.
+              Missing offensive rankings use The Bronx Index calculations
+              against same-season MLB hitters with 100+ plate appearances
+              and metric-specific sample requirements. Higher is better.
+            </p>
+          </div>
+
+          {[
+            {
+              title: "Overall Performance",
+              metrics: [
+                ["Batting Run Value", "batting"],
+                ["Baserunning Run Value", "baseRunning"],
+                ["Fielding Run Value", "fielding"],
+              ],
+            },
+            {
+              title: "Expected Performance",
+              metrics: [
+                ["xwOBA", "xwOBA"],
+                ["xBA", "xBA"],
+                ["xSLG", "xSLG"],
+              ],
+            },
+            {
+              title: "Quality of Contact",
+              metrics: [
+                ["Exit Velocity", "exitVelocity"],
+                ["Barrel%", "barrel"],
+                ["Hard-Hit%", "hardHit"],
+                ["Sweet-Spot%", "sweetSpot"],
+                ["Bat Speed", "batSpeed"],
+                ["Squared-Up%", "squaredUp"],
+              ],
+            },
+            {
+              title: "Plate Discipline",
+              metrics: [
+                ["Chase%", "chase"],
+                ["Whiff%", "whiff"],
+                ["Strikeout%", "strikeout"],
+                ["Walk%", "walk"],
+              ],
+            },
+            {
+              title: "Defense & Speed",
+              metrics: [
+                ["Range (OAA)", "rangeOAA"],
+                ["Arm Value", "armValue"],
+                ["Arm Strength", "armStrength"],
+                ["First Base Receiving", "firstBaseReceiving"],
+                ["Sprint Speed", "sprintSpeed"],
+              ],
+            },
+          ].map((group) => (
+            <div key={group.title}>
+              <h5 className="mb-4 text-xs font-bold uppercase tracking-widest text-slate-400">
+                {group.title}
+              </h5>
+
+              <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                {group.metrics.map(([label, key]) => {
+                  const officialValue = statcast.percentileRankings?.[key] ?? null;
+                  const customValue = statcast.bronxIndexPercentiles?.[key] ?? null;
+                  const isBronxIndex = officialValue === null && customValue !== null;
+                  const value = officialValue ?? customValue;
+
+                  const barColor =
+                    value === null
+                      ? "bg-slate-600"
+                      : value >= 75
+                      ? "bg-emerald-500"
+                      : value >= 50
+                      ? "bg-blue-400"
+                      : value >= 25
+                      ? "bg-amber-400"
+                      : "bg-red-400";
+
+                  return (
+                    <div
+                      key={key}
+                      className="border border-white/10 bg-[#0c1c33] p-4"
+                    >
+                      <div className="mb-3 flex items-center justify-between">
+                        <span className="text-xs font-semibold text-slate-300">
+                          {label}
+                        </span>
+                        <div className="text-right">
+                          <span className="text-sm font-bold text-white">
+                            {value === null ? "N/A" : `${value}th`}
+                          </span>
+                          {isBronxIndex && (
+                            <div className="mt-1 text-[10px] font-semibold text-blue-400">
+                              Bronx Index
+                            </div>
+                          )}
+                        </div>
+                      </div>
+
+                      <div className="h-2 overflow-hidden rounded-full bg-white/10">
+                        <div
+                          className={`h-full rounded-full ${barColor}`}
+                          style={{ width: `${value ?? 0}%` }}
+                        />
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+      </>
         )) : (
         <p className="border border-white/10 bg-[#0c1c33] p-5 text-sm text-slate-400">
         Statcast statistics are unavailable for this player and season.
