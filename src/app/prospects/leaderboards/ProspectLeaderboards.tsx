@@ -31,6 +31,10 @@ const hittingColumns = [
   { label: "OBP", key: "obp" },
   { label: "SLG", key: "slg" },
   { label: "OPS", key: "ops" },
+  { label: "ISO", key: "iso" },
+  { label: "BB%", key: "walkRate" },
+  { label: "K%", key: "strikeoutRate" },
+  { label: "BABIP", key: "babip" },
 ];
 
 const pitchingColumns = [
@@ -47,6 +51,10 @@ const pitchingColumns = [
   { label: "K/9", key: "strikeoutsPer9Inn" },
   { label: "BB/9", key: "walksPer9Inn" },
   { label: "HR/9", key: "homeRunsPer9" },
+  { label: "K%", key: "strikeoutRate" },
+  { label: "BB%", key: "walkRate" },
+  { label: "K-BB%", key: "strikeoutMinusWalkRate" },
+  { label: "K/BB", key: "strikeoutWalkRatio" },
 ];
 
 export default function ProspectLeaderboards() {

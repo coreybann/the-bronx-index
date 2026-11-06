@@ -253,6 +253,55 @@ export type ProspectSeasonLeaderboardEntry = {
   stats: Record<string, string | number>;
 };
 
+export function getProspectAdvancedStats(
+  stats: Record<string, string | number>,
+  group: "hitting" | "pitching"
+): Record<string, string | number> {
+  const result = { ...stats };
+  const value = (key: string) => Number(stats[key] ?? 0);
+
+  const percentage = (numerator: number, denominator: number) =>
+    denominator > 0
+      ? (numerator / denominator * 100).toFixed(1)
+      : "—";
+
+  if (group === "hitting") {
+    const pa = value("plateAppearances");
+    const ab = value("atBats");
+    const hits = value("hits");
+    const hr = value("homeRuns");
+    const so = value("strikeOuts");
+    const bb = value("baseOnBalls");
+    const sf = value("sacFlies");
+    const avg = Number(stats.avg);
+    const slg = Number(stats.slg);
+
+    result.iso = Number.isFinite(avg) && Number.isFinite(slg)
+      ? (slg - avg).toFixed(3)
+      : "—";
+    result.walkRate = percentage(bb, pa);
+    result.strikeoutRate = percentage(so, pa);
+
+    const babipDenominator = ab - so - hr + sf;
+    result.babip = babipDenominator > 0
+      ? ((hits - hr) / babipDenominator).toFixed(3)
+      : "—";
+  } else {
+    const bf = value("battersFaced");
+    const so = value("strikeOuts");
+    const bb = value("baseOnBalls");
+
+    result.walkRate = percentage(bb, bf);
+    result.strikeoutRate = percentage(so, bf);
+    result.strikeoutMinusWalkRate = percentage(so - bb, bf);
+    result.strikeoutWalkRatio = bb > 0
+      ? (so / bb).toFixed(2)
+      : "—";
+  }
+
+  return result;
+}
+
 export async function getYankeesProspectSeasonLeaderboard(
   season: number,
   group: "hitting" | "pitching"
@@ -297,7 +346,7 @@ export async function getYankeesProspectSeasonLeaderboard(
           player.affiliateStats.map((line) => line.teamName)
         ),
       ],
-      stats,
+      stats: getProspectAdvancedStats(stats, group),
     }];
   });
 }
