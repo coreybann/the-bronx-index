@@ -98,9 +98,15 @@ export default function LegendsDirectory() {
                 </div>
 
                 <div className="min-w-0">
-                  <h3 className="text-lg font-bold text-white">
-                    {player.name}
-                  </h3>
+                  <div className="flex flex-wrap items-center gap-2">
+  <h3 className="text-lg font-bold text-white">
+    {player.name}
+  </h3>
+
+  <span className="border border-[#d5b66a]/30 px-2 py-1 text-[10px] font-bold text-[#d5b66a]">
+    No. {player.retiredNumber}
+  </span>
+</div>
 
                   <p className="mt-2 text-sm text-slate-300">
                     Position: {player.position}

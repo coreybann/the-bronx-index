@@ -1,51 +1,242 @@
 [
   {
-    "id": 121578,
-    "name": "Babe Ruth",
-    "position": "OF",
-    "startYear": 1920,
-    "endYear": 1934
-  },
-  {
-    "id": 114680,
-    "name": "Lou Gehrig",
-    "position": "1B",
-    "startYear": 1923,
-    "endYear": 1939
-  },
-  {
-    "id": 113376,
-    "name": "Joe DiMaggio",
-    "position": "OF",
-    "startYear": 1936,
-    "endYear": 1951
-  },
-  {
-    "id": 118258,
-    "name": "Mickey Mantle",
-    "position": "OF",
-    "startYear": 1951,
-    "endYear": 1968
-  },
-  {
-    "id": 110925,
-    "name": "Yogi Berra",
-    "position": "C",
-    "startYear": 1946,
-    "endYear": 1963
+    "id": 118330,
+    "name": "Billy Martin",
+    "position": "2B",
+    "startYear": 1950,
+    "endYear": 1957,
+    "retiredNumber": 1,
+    "role": "Player/Manager",
+    "profileType": "hitting"
   },
   {
     "id": 116539,
     "name": "Derek Jeter",
     "position": "SS",
     "startYear": 1995,
-    "endYear": 2014
+    "endYear": 2014,
+    "retiredNumber": 2,
+    "role": "Player",
+    "profileType": "hitting"
+  },
+  {
+    "id": 121578,
+    "name": "Babe Ruth",
+    "position": "OF",
+    "startYear": 1920,
+    "endYear": 1934,
+    "retiredNumber": 3,
+    "role": "Player",
+    "profileType": "hitting"
+  },
+  {
+    "id": 114680,
+    "name": "Lou Gehrig",
+    "position": "1B",
+    "startYear": 1923,
+    "endYear": 1939,
+    "retiredNumber": 4,
+    "role": "Player",
+    "profileType": "hitting"
+  },
+  {
+    "id": 113376,
+    "name": "Joe DiMaggio",
+    "position": "OF",
+    "startYear": 1936,
+    "endYear": 1951,
+    "retiredNumber": 5,
+    "role": "Player",
+    "profileType": "hitting"
+  },
+  {
+    "id": 123406,
+    "name": "Joe Torre",
+    "position": "Manager",
+    "startYear": 1996,
+    "endYear": 2007,
+    "retiredNumber": 6,
+    "role": "Manager",
+    "profileType": "managerial"
+  },
+  {
+    "id": 118258,
+    "name": "Mickey Mantle",
+    "position": "OF",
+    "startYear": 1951,
+    "endYear": 1968,
+    "retiredNumber": 7,
+    "role": "Player",
+    "profileType": "hitting"
+  },
+  {
+    "id": 110925,
+    "name": "Yogi Berra",
+    "position": "C",
+    "startYear": 1946,
+    "endYear": 1963,
+    "retiredNumber": 8,
+    "role": "Player",
+    "profileType": "hitting"
+  },
+  {
+    "id": 113340,
+    "name": "Bill Dickey",
+    "position": "C",
+    "startYear": 1928,
+    "endYear": 1946,
+    "retiredNumber": 8,
+    "role": "Player",
+    "profileType": "hitting"
+  },
+  {
+    "id": 118287,
+    "name": "Roger Maris",
+    "position": "RF",
+    "startYear": 1960,
+    "endYear": 1966,
+    "retiredNumber": 9,
+    "role": "Player",
+    "profileType": "hitting"
+  },
+  {
+    "id": 121257,
+    "name": "Phil Rizzuto",
+    "position": "SS",
+    "startYear": 1941,
+    "endYear": 1956,
+    "retiredNumber": 10,
+    "role": "Player",
+    "profileType": "hitting"
+  },
+  {
+    "id": 119531,
+    "name": "Thurman Munson",
+    "position": "C",
+    "startYear": 1969,
+    "endYear": 1979,
+    "retiredNumber": 15,
+    "role": "Player",
+    "profileType": "hitting"
+  },
+  {
+    "id": 114299,
+    "name": "Whitey Ford",
+    "position": "P",
+    "startYear": 1950,
+    "endYear": 1967,
+    "retiredNumber": 16,
+    "role": "Player",
+    "profileType": "pitching"
+  },
+  {
+    "id": 120691,
+    "name": "Jorge Posada",
+    "position": "C",
+    "startYear": 1995,
+    "endYear": 2011,
+    "retiredNumber": 20,
+    "role": "Player",
+    "profileType": "hitting"
+  },
+  {
+    "id": 120028,
+    "name": "Paul O'Neill",
+    "position": "RF",
+    "startYear": 1993,
+    "endYear": 2001,
+    "retiredNumber": 21,
+    "role": "Player",
+    "profileType": "hitting"
+  },
+  {
+    "id": 118443,
+    "name": "Don Mattingly",
+    "position": "1B",
+    "startYear": 1982,
+    "endYear": 1995,
+    "retiredNumber": 23,
+    "role": "Player",
+    "profileType": "hitting"
+  },
+  {
+    "id": 116204,
+    "name": "Elston Howard",
+    "position": "C",
+    "startYear": 1955,
+    "endYear": 1967,
+    "retiredNumber": 32,
+    "role": "Player",
+    "profileType": "hitting"
+  },
+  {
+    "id": 122737,
+    "name": "Casey Stengel",
+    "position": "Manager",
+    "startYear": 1949,
+    "endYear": 1960,
+    "retiredNumber": 37,
+    "role": "Manager",
+    "profileType": "managerial"
   },
   {
     "id": 121250,
     "name": "Mariano Rivera",
     "position": "P",
     "startYear": 1995,
-    "endYear": 2013
+    "endYear": 2013,
+    "retiredNumber": 42,
+    "role": "Player",
+    "profileType": "pitching"
+  },
+  {
+    "id": 116439,
+    "name": "Reggie Jackson",
+    "position": "RF",
+    "startYear": 1977,
+    "endYear": 1981,
+    "retiredNumber": 44,
+    "role": "Player",
+    "profileType": "hitting"
+  },
+  {
+    "id": 120485,
+    "name": "Andy Pettitte",
+    "position": "P",
+    "startYear": 1995,
+    "endYear": 2013,
+    "retiredNumber": 46,
+    "role": "Player",
+    "profileType": "pitching"
+  },
+  {
+    "id": 115228,
+    "name": "Ron Guidry",
+    "position": "P",
+    "startYear": 1975,
+    "endYear": 1988,
+    "retiredNumber": 49,
+    "role": "Player",
+    "profileType": "pitching"
+  },
+  {
+    "id": 124288,
+    "name": "Bernie Williams",
+    "position": "CF",
+    "startYear": 1991,
+    "endYear": 2006,
+    "retiredNumber": 51,
+    "role": "Player",
+    "profileType": "hitting"
+  },
+  {
+    "id": 282332,
+    "name": "CC Sabathia",
+    "position": "P",
+    "startYear": 2009,
+    "endYear": 2019,
+    "retiredNumber": 52,
+    "role": "Player",
+    "profileType": "pitching"
   }
 ]

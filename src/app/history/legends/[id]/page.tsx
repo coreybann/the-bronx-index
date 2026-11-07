@@ -2,6 +2,7 @@ import { Suspense } from "react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import legends from "@/data/yankees-legends.json";
+import managerialHistory from "@/data/yankees-legend-managerial.json";
 import { getYankeesLegendAwards } from "@/lib/yankeesLegendAwards";
 import legendChampionships from "@/data/yankees-legend-championships.json";
 import {
@@ -66,7 +67,13 @@ async function LegendProfile({
       String(legend.id) as keyof typeof legendChampionships
     ] ?? [];
 
-  const isPitcher = legend.position === "P";
+  const managerialRecord =
+    managerialHistory[
+      String(legend.id) as keyof typeof managerialHistory
+    ];
+
+  const isManager = legend.profileType === "managerial";
+  const isPitcher = legend.profileType === "pitching";
   const group = isPitcher ? "pitching" : "hitting";
 
   const [player, stats, awards] = await Promise.all([
@@ -130,9 +137,11 @@ async function LegendProfile({
       ];
 
   const bio = [
+    ["Retired Number", `No. ${legend.retiredNumber}`],
+    ["Role", legend.role],
     ["Position", legend.position],
-    ["Yankees Debut", legend.startYear],
-    ["Final Yankees Season", legend.endYear],
+    ["Yankees Debut", isManager ? undefined : legend.startYear],
+    [isManager ? "Final Managerial Season" : "Final Yankees Season", legend.endYear],
     ["Bats", player?.batSide?.description],
     ["Throws", player?.pitchHand?.description],
     ["Height", player?.height],
@@ -194,7 +203,7 @@ async function LegendProfile({
           </p>
 
           <h2 className="mt-2 text-2xl font-bold">
-            Historical Player Bio
+            {isManager ? "Historical Bio" : "Historical Player Bio"}
           </h2>
 
           <div className="mt-6 grid grid-cols-2 gap-px border border-white/10 bg-white/10 sm:grid-cols-3 lg:grid-cols-4">
@@ -219,6 +228,7 @@ async function LegendProfile({
           </div>
         </section>
 
+        {!isManager && (
         <section>
           <p className="text-xs font-bold uppercase tracking-widest text-[#d5b66a]">
             Career Overview
@@ -250,7 +260,79 @@ async function LegendProfile({
             ))}
           </div>
         </section>
+        )}
 
+        {managerialRecord && (
+          <section>
+            <p className="text-xs font-bold uppercase tracking-widest text-[#d5b66a]">
+              Yankees Managerial Career
+            </p>
+
+            <h2 className="mt-2 text-2xl font-bold">
+              Managerial History
+            </h2>
+
+            <p className="mt-2 text-sm text-slate-400">
+              Managerial service and World Series titles with the New York Yankees.
+            </p>
+
+            <div className="mt-6 grid gap-4 sm:grid-cols-2">
+              <div className="rounded-xl border border-white/10 bg-[#0c1c33] p-5">
+                <p className="text-xs font-semibold uppercase tracking-widest text-slate-400">
+                  World Series Titles as Manager
+                </p>
+                <p className="mt-3 text-3xl font-black text-[#d5b66a]">
+                  {managerialRecord.worldSeriesTitles.length}
+                </p>
+              </div>
+
+              <div className="rounded-xl border border-white/10 bg-[#0c1c33] p-5">
+                <p className="text-xs font-semibold uppercase tracking-widest text-slate-400">
+                  Managerial Stints
+                </p>
+                <p className="mt-3 text-3xl font-black text-[#d5b66a]">
+                  {managerialRecord.managerialStints.length}
+                </p>
+              </div>
+            </div>
+
+            <div className="mt-6 rounded-xl border border-white/10 bg-[#0c1c33] p-6">
+              <h3 className="text-sm font-bold uppercase tracking-widest text-[#d5b66a]">
+                Yankees Managerial Tenure
+              </h3>
+
+              <div className="mt-4 flex flex-wrap gap-3">
+                {managerialRecord.managerialStints.map((stint, index) => (
+                  <span
+                    key={`${stint[0]}-${stint[1]}-${index}`}
+                    className="border border-white/10 bg-[#07152b] px-4 py-3 text-sm font-semibold"
+                  >
+                    {stint[0] === stint[1]
+                      ? stint[0]
+                      : `${stint[0]}–${stint[1]}`}
+                  </span>
+                ))}
+              </div>
+
+              <h3 className="mt-8 text-sm font-bold uppercase tracking-widest text-[#d5b66a]">
+                World Series Titles as Manager
+              </h3>
+
+              <div className="mt-4 flex flex-wrap gap-3">
+                {managerialRecord.worldSeriesTitles.map((year) => (
+                  <span
+                    key={year}
+                    className="border border-[#d5b66a]/30 bg-[#12243a] px-4 py-3 text-sm font-bold text-[#d5b66a]"
+                  >
+                    {year}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
+        {!isManager && (
         <section>
           <p className="text-xs font-bold uppercase tracking-widest text-[#d5b66a]">
             Championship Legacy
@@ -289,6 +371,8 @@ async function LegendProfile({
             </div>
           </div>
         </section>
+
+        )}
 
         <section>
           <p className="text-xs font-bold uppercase tracking-widest text-[#d5b66a]">
@@ -353,6 +437,7 @@ async function LegendProfile({
           )}
         </section>
 
+        {!isManager && (
         <section>
           <p className="text-xs font-bold uppercase tracking-widest text-[#d5b66a]">
             Yankees Career Performance
@@ -406,6 +491,7 @@ async function LegendProfile({
             )}
           </div>
         </section>
+        )}
 
         <p className="border-t border-white/10 pt-6 text-xs text-slate-500">
           Historical player information and regular-season statistics
