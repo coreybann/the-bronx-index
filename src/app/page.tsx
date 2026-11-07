@@ -1,3 +1,5 @@
+import HomePlayerSearch from "./HomePlayerSearch";
+
 
 const sections = [
   {
@@ -29,7 +31,7 @@ const sections = [
     title: "Front Office",
     description:
       "A closer look at contracts, payroll, transactions, roster construction, and organizational decisions.",
-    detail: "CONTRACTS · PAYROLL · TRANSACTIONS",
+    detail: "CONTRACTS · TRANSACTIONS · ROSTER CONSTRUCTION",
     href: "/front-office",
   },
 ];
@@ -68,6 +70,8 @@ export default function Home() {
               Explore the history, people, numbers, and future of the New York
               Yankees in one place.
             </p>
+
+            <HomePlayerSearch />
 
             <div className="mt-10 flex flex-wrap gap-4">
               <a
