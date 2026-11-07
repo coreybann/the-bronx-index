@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import HistorySections from "./HistorySections";
+import { Suspense } from "react";
 
 export const metadata: Metadata = {
   title: "Yankees History | The Bronx Index",
@@ -28,7 +29,15 @@ export default function HistoryPage() {
       </section>
 
       <section className="mx-auto max-w-7xl px-6 py-16 lg:px-10">
-        <HistorySections />
+        <Suspense
+          fallback={
+            <p className="text-sm text-slate-400">
+              Loading Yankees history...
+            </p>
+          }
+        >
+          <HistorySections />
+        </Suspense>
       </section>
     </main>
   );

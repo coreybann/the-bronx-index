@@ -1,19 +1,36 @@
 "use client";
 
-import { useState } from "react";
+import { useSearchParams, useRouter } from "next/navigation";
 import Championships from "./Championships";
 import ChampionshipComparison from "./ChampionshipComparison";
 import LegendsDirectory from "./LegendsDirectory";
+import FranchiseRecords from "./FranchiseRecords";
 
-type HistoryTab = "championships" | "legends";
+type HistoryTab = "championships" | "legends" | "records";
 
 export default function HistorySections() {
-  const [activeTab, setActiveTab] =
-    useState<HistoryTab>("championships");
+  const searchParams = useSearchParams();
+  const router = useRouter();
+
+  const requestedTab = searchParams.get("tab");
+
+  const activeTab: HistoryTab =
+    requestedTab === "legends" || requestedTab === "records"
+      ? requestedTab
+      : "championships";
+
+  function changeTab(tab: HistoryTab) {
+    const params = new URLSearchParams(searchParams.toString());
+    params.set("tab", tab);
+    router.replace(`/history?${params.toString()}`, {
+      scroll: false,
+    });
+  }
 
   const tabs = [
     { id: "championships" as const, label: "Championships" },
     { id: "legends" as const, label: "Yankees Legends" },
+    { id: "records" as const, label: "Franchise Records" },
   ];
 
   return (
@@ -23,7 +40,7 @@ export default function HistorySections() {
           <button
             key={tab.id}
             type="button"
-            onClick={() => setActiveTab(tab.id)}
+            onClick={() => changeTab(tab.id)}
             aria-pressed={activeTab === tab.id}
             className={`border-b-2 px-5 py-4 text-xs font-bold uppercase tracking-wider transition ${
               activeTab === tab.id
@@ -46,6 +63,7 @@ export default function HistorySections() {
       )}
 
       {activeTab === "legends" && <LegendsDirectory />}
+      {activeTab === "records" && <FranchiseRecords />}
     </div>
   );
 }

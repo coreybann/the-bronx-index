@@ -51,10 +51,14 @@ function display(value: string | number | undefined) {
 
 async function LegendProfile({
   params,
+  searchParams,
 }: {
   params: Promise<{ id: string }>;
+  searchParams: Promise<{ from?: string }>;
 }) {
   const { id } = await params;
+  const { from } = await searchParams;
+  const fromRecords = from === "records";
 
   const legend = legends.find(
     (player) => String(player.id) === id
@@ -175,10 +179,12 @@ async function LegendProfile({
       <header className="border-b border-white/10 bg-[#0b1d36]">
         <div className="mx-auto max-w-7xl px-6 py-12 lg:px-10">
           <Link
-            href="/history"
+            href={fromRecords ? "/history?tab=records" : "/history?tab=legends"}
             className="text-xs font-semibold uppercase tracking-widest text-[#d5b66a] hover:text-white"
           >
-            ← Back to Yankees History
+            {fromRecords
+              ? "← Back to Franchise Records"
+              : "← Back to Yankees History"}
           </Link>
 
           <p className="mt-10 text-xs font-bold uppercase tracking-[0.3em] text-[#d5b66a]">
@@ -506,8 +512,10 @@ async function LegendProfile({
 
 export default function LegendPage({
   params,
+  searchParams,
 }: {
   params: Promise<{ id: string }>;
+  searchParams: Promise<{ from?: string }>;
 }) {
   return (
     <Suspense
@@ -517,7 +525,7 @@ export default function LegendPage({
         </main>
       }
     >
-      <LegendProfile params={params} />
+      <LegendProfile params={params} searchParams={searchParams} />
     </Suspense>
   );
 }

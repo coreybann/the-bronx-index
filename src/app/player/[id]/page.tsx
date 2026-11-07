@@ -72,10 +72,14 @@ function display(value: string | number | undefined) {
 
 async function PlayerProfile({
   params,
+  searchParams,
 }: {
   params: Promise<{ id: string }>;
+  searchParams: Promise<{ from?: string }>;
 }) {
   const { id } = await params;
+  const { from } = await searchParams;
+  const fromRecords = from === "records";
 
   if (!/^\d+$/.test(id)) notFound();
 
@@ -157,10 +161,12 @@ async function PlayerProfile({
       <div className="border-b border-white/10 bg-[#0b1d36]">
         <div className="mx-auto max-w-7xl px-6 py-12 lg:px-10">
           <Link
-            href="/team"
+            href={fromRecords ? "/history?tab=records" : "/team"}
             className="text-xs font-semibold uppercase tracking-widest text-[#d5b66a] hover:text-white"
           >
-            ← Back to Yankees Roster
+            {fromRecords
+              ? "← Back to Franchise Records"
+              : "← Back to Yankees Roster"}
           </Link>
 
           <div className="mt-9 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
@@ -256,8 +262,10 @@ async function PlayerProfile({
 }
 export default function PlayerPage({
   params,
+  searchParams,
 }: {
   params: Promise<{ id: string }>;
+  searchParams: Promise<{ from?: string }>;
 }) {
   return (
     <Suspense
@@ -267,7 +275,7 @@ export default function PlayerPage({
         </main>
       }
     >
-      <PlayerProfile params={params} />
+      <PlayerProfile params={params} searchParams={searchParams} />
     </Suspense>
   );
 }

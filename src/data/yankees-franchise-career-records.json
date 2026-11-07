@@ -1,0 +1,3585 @@
+{
+  "teamId": 147,
+  "recordType": "career",
+  "categories": {
+    "hitting.homeRuns": [
+      {
+        "playerId": 121578,
+        "player": "Babe Ruth",
+        "value": "659"
+      },
+      {
+        "playerId": 118258,
+        "player": "Mickey Mantle",
+        "value": "536"
+      },
+      {
+        "playerId": 114680,
+        "player": "Lou Gehrig",
+        "value": "493"
+      },
+      {
+        "playerId": 592450,
+        "player": "Aaron Judge",
+        "value": "386"
+      },
+      {
+        "playerId": 113376,
+        "player": "Joe DiMaggio",
+        "value": "361"
+      },
+      {
+        "playerId": 110925,
+        "player": "Yogi Berra",
+        "value": "358"
+      },
+      {
+        "playerId": 121347,
+        "player": "Alex Rodriguez",
+        "value": "351"
+      },
+      {
+        "playerId": 124288,
+        "player": "Bernie Williams",
+        "value": "287"
+      },
+      {
+        "playerId": 120691,
+        "player": "Jorge Posada",
+        "value": "275"
+      },
+      {
+        "playerId": 116539,
+        "player": "Derek Jeter",
+        "value": "260"
+      },
+      {
+        "playerId": 119720,
+        "player": "Graig Nettles",
+        "value": "250"
+      },
+      {
+        "playerId": 118443,
+        "player": "Don Mattingly",
+        "value": "222"
+      },
+      {
+        "playerId": 114739,
+        "player": "Jason Giambi",
+        "value": "209"
+      },
+      {
+        "playerId": 407893,
+        "player": "Mark Teixeira",
+        "value": "206"
+      },
+      {
+        "playerId": 124448,
+        "player": "Dave Winfield",
+        "value": "205"
+      },
+      {
+        "playerId": 429664,
+        "player": "Robinson Can\u00f3",
+        "value": "204"
+      },
+      {
+        "playerId": 118287,
+        "player": "Roger Maris",
+        "value": "203"
+      },
+      {
+        "playerId": 113340,
+        "player": "Bill Dickey",
+        "value": "202"
+      },
+      {
+        "playerId": 118362,
+        "player": "Tino Martinez",
+        "value": "192"
+      },
+      {
+        "playerId": 519317,
+        "player": "Giancarlo Stanton",
+        "value": "189"
+      },
+      {
+        "playerId": 120028,
+        "player": "Paul O'Neill",
+        "value": "185"
+      },
+      {
+        "playerId": 116919,
+        "player": "Charlie Keller",
+        "value": "184"
+      },
+      {
+        "playerId": 115778,
+        "player": "Tommy Henrich",
+        "value": "183"
+      },
+      {
+        "playerId": 119535,
+        "player": "Bobby Murcer",
+        "value": "175"
+      },
+      {
+        "playerId": 117577,
+        "player": "Tony Lazzeri",
+        "value": "169"
+      },
+      {
+        "playerId": 120391,
+        "player": "Joe Pepitone",
+        "value": "166"
+      },
+      {
+        "playerId": 122303,
+        "player": "Bill Skowron",
+        "value": "165"
+      },
+      {
+        "playerId": 116204,
+        "player": "Elston Howard",
+        "value": "161"
+      },
+      {
+        "playerId": 124186,
+        "player": "Roy White",
+        "value": "160"
+      },
+      {
+        "playerId": 110697,
+        "player": "Hank Bauer",
+        "value": "158"
+      },
+      {
+        "playerId": 114967,
+        "player": "Joe Gordon",
+        "value": "153"
+      },
+      {
+        "playerId": 119006,
+        "player": "Bob Meusel",
+        "value": "146"
+      },
+      {
+        "playerId": 116439,
+        "player": "Reggie Jackson",
+        "value": "144"
+      },
+      {
+        "playerId": 425686,
+        "player": "Hideki Matsui",
+        "value": "140"
+      },
+      {
+        "playerId": 123461,
+        "player": "Tom Tresh",
+        "value": "140"
+      },
+      {
+        "playerId": 458731,
+        "player": "Brett Gardner",
+        "value": "139"
+      },
+      {
+        "playerId": 596142,
+        "player": "Gary S\u00e1nchez",
+        "value": "138"
+      },
+      {
+        "playerId": 650402,
+        "player": "Gleyber Torres",
+        "value": "138"
+      },
+      {
+        "playerId": 150093,
+        "player": "Alfonso Soriano",
+        "value": "121"
+      },
+      {
+        "playerId": 434158,
+        "player": "Curtis Granderson",
+        "value": "115"
+      },
+      {
+        "playerId": 119531,
+        "player": "Thurman Munson",
+        "value": "113"
+      },
+      {
+        "playerId": 118655,
+        "player": "Gil McDougald",
+        "value": "112"
+      },
+      {
+        "playerId": 121987,
+        "player": "George Selkirk",
+        "value": "108"
+      },
+      {
+        "playerId": 120178,
+        "player": "Mike Pagliarulo",
+        "value": "105"
+      },
+      {
+        "playerId": 430897,
+        "player": "Nick Swisher",
+        "value": "105"
+      },
+      {
+        "playerId": 112861,
+        "player": "Frankie Crosetti",
+        "value": "98"
+      },
+      {
+        "playerId": 544369,
+        "player": "Didi Gregorius",
+        "value": "97"
+      },
+      {
+        "playerId": 111319,
+        "player": "Clete Boyer",
+        "value": "95"
+      },
+      {
+        "playerId": 114558,
+        "player": "Oscar Gamble",
+        "value": "87"
+      },
+      {
+        "playerId": 112514,
+        "player": "Joe Collins",
+        "value": "86"
+      },
+      {
+        "playerId": 543305,
+        "player": "Aaron Hicks",
+        "value": "81"
+      },
+      {
+        "playerId": 123096,
+        "player": "Danny Tartabull",
+        "value": "81"
+      },
+      {
+        "playerId": 120594,
+        "player": "Wally Pipp",
+        "value": "80"
+      },
+      {
+        "playerId": 112180,
+        "player": "Chris Chambliss",
+        "value": "79"
+      },
+      {
+        "playerId": 115749,
+        "player": "Rickey Henderson",
+        "value": "78"
+      },
+      {
+        "playerId": 113028,
+        "player": "Johnny Damon",
+        "value": "77"
+      },
+      {
+        "playerId": 518934,
+        "player": "DJ LeMahieu",
+        "value": "77"
+      },
+      {
+        "playerId": 122111,
+        "player": "Gary Sheffield",
+        "value": "76"
+      },
+      {
+        "playerId": 700250,
+        "player": "Ben Rice",
+        "value": "74"
+      },
+      {
+        "playerId": 122673,
+        "player": "Mike Stanley",
+        "value": "72"
+      },
+      {
+        "playerId": 110719,
+        "player": "Don Baylor",
+        "value": "71"
+      },
+      {
+        "playerId": 119820,
+        "player": "Matt Nokes",
+        "value": "71"
+      },
+      {
+        "playerId": 117918,
+        "player": "Hector Lopez",
+        "value": "69"
+      },
+      {
+        "playerId": 435263,
+        "player": "Brian McCann",
+        "value": "69"
+      },
+      {
+        "playerId": 121410,
+        "player": "Red Rolfe",
+        "value": "69"
+      },
+      {
+        "playerId": 572228,
+        "player": "Luke Voit",
+        "value": "68"
+      },
+      {
+        "playerId": 111515,
+        "player": "Scott Brosius",
+        "value": "65"
+      },
+      {
+        "playerId": 111068,
+        "player": "Johnny Blanchard",
+        "value": "64"
+      },
+      {
+        "playerId": 118063,
+        "player": "Kevin Maas",
+        "value": "64"
+      },
+      {
+        "playerId": 113923,
+        "player": "Nick Etten",
+        "value": "63"
+      },
+      {
+        "playerId": 115348,
+        "player": "Mel Hall",
+        "value": "63"
+      },
+      {
+        "playerId": 117780,
+        "player": "Johnny Lindell",
+        "value": "63"
+      },
+      {
+        "playerId": 110559,
+        "player": "Jesse Barfield",
+        "value": "62"
+      },
+      {
+        "playerId": 665862,
+        "player": "Jazz Chisholm Jr.",
+        "value": "61"
+      },
+      {
+        "playerId": 663757,
+        "player": "Trent Grisham",
+        "value": "61"
+      },
+      {
+        "playerId": 112205,
+        "player": "Ben Chapman",
+        "value": "60"
+      },
+      {
+        "playerId": 519203,
+        "player": "Anthony Rizzo",
+        "value": "60"
+      },
+      {
+        "playerId": 112533,
+        "player": "Earle Combs",
+        "value": "58"
+      },
+      {
+        "playerId": 117747,
+        "player": "Jim Leyritz",
+        "value": "58"
+      },
+      {
+        "playerId": 116959,
+        "player": "Roberto Kelly",
+        "value": "57"
+      },
+      {
+        "playerId": 117343,
+        "player": "Tony Kubek",
+        "value": "57"
+      },
+      {
+        "playerId": 120586,
+        "player": "Lou Piniella",
+        "value": "57"
+      },
+      {
+        "playerId": 136860,
+        "player": "Carlos Beltr\u00e1n",
+        "value": "56"
+      },
+      {
+        "playerId": 683011,
+        "player": "Anthony Volpe",
+        "value": "54"
+      },
+      {
+        "playerId": 669224,
+        "player": "Austin Wells",
+        "value": "52"
+      },
+      {
+        "playerId": 124554,
+        "player": "Gene Woodling",
+        "value": "51"
+      },
+      {
+        "playerId": 115136,
+        "player": "Ken Griffey Sr.",
+        "value": "49"
+      },
+      {
+        "playerId": 117197,
+        "player": "Chuck Knoblauch",
+        "value": "49"
+      },
+      {
+        "playerId": 110480,
+        "player": "Home Run Baker",
+        "value": "48"
+      },
+      {
+        "playerId": 120927,
+        "player": "Willie Randolph",
+        "value": "48"
+      },
+      {
+        "playerId": 111109,
+        "player": "Ron Blomberg",
+        "value": "47"
+      },
+      {
+        "playerId": 111987,
+        "player": "Andy Carey",
+        "value": "47"
+      },
+      {
+        "playerId": 641355,
+        "player": "Cody Bellinger",
+        "value": "46"
+      },
+      {
+        "playerId": 116640,
+        "player": "Billy Johnson",
+        "value": "45"
+      },
+      {
+        "playerId": 122218,
+        "player": "Ruben Sierra",
+        "value": "45"
+      },
+      {
+        "playerId": 122337,
+        "player": "Roy Smalley III",
+        "value": "45"
+      },
+      {
+        "playerId": 122584,
+        "player": "Jim Spencer",
+        "value": "45"
+      },
+      {
+        "playerId": 123910,
+        "player": "Aaron Ward",
+        "value": "45"
+      },
+      {
+        "playerId": 119207,
+        "player": "Johnny Mize",
+        "value": "44"
+      },
+      {
+        "playerId": 110029,
+        "player": "Bobby Abreu",
+        "value": "43"
+      },
+      {
+        "playerId": 452104,
+        "player": "Chase Headley",
+        "value": "43"
+      },
+      {
+        "playerId": 133341,
+        "player": "Shane Spencer",
+        "value": "43"
+      },
+      {
+        "playerId": 123690,
+        "player": "Randy Velarde",
+        "value": "43"
+      }
+    ],
+    "hitting.hits": [
+      {
+        "playerId": 116539,
+        "player": "Derek Jeter",
+        "value": "3465"
+      },
+      {
+        "playerId": 114680,
+        "player": "Lou Gehrig",
+        "value": "2721"
+      },
+      {
+        "playerId": 121578,
+        "player": "Babe Ruth",
+        "value": "2518"
+      },
+      {
+        "playerId": 118258,
+        "player": "Mickey Mantle",
+        "value": "2415"
+      },
+      {
+        "playerId": 124288,
+        "player": "Bernie Williams",
+        "value": "2336"
+      },
+      {
+        "playerId": 113376,
+        "player": "Joe DiMaggio",
+        "value": "2214"
+      },
+      {
+        "playerId": 118443,
+        "player": "Don Mattingly",
+        "value": "2153"
+      },
+      {
+        "playerId": 110925,
+        "player": "Yogi Berra",
+        "value": "2148"
+      },
+      {
+        "playerId": 113340,
+        "player": "Bill Dickey",
+        "value": "1969"
+      },
+      {
+        "playerId": 112533,
+        "player": "Earle Combs",
+        "value": "1866"
+      },
+      {
+        "playerId": 124186,
+        "player": "Roy White",
+        "value": "1803"
+      },
+      {
+        "playerId": 117577,
+        "player": "Tony Lazzeri",
+        "value": "1784"
+      },
+      {
+        "playerId": 120927,
+        "player": "Willie Randolph",
+        "value": "1731"
+      },
+      {
+        "playerId": 120691,
+        "player": "Jorge Posada",
+        "value": "1664"
+      },
+      {
+        "playerId": 429664,
+        "player": "Robinson Can\u00f3",
+        "value": "1649"
+      },
+      {
+        "playerId": 121257,
+        "player": "Phil Rizzuto",
+        "value": "1588"
+      },
+      {
+        "playerId": 121347,
+        "player": "Alex Rodriguez",
+        "value": "1580"
+      },
+      {
+        "playerId": 120594,
+        "player": "Wally Pipp",
+        "value": "1577"
+      },
+      {
+        "playerId": 119006,
+        "player": "Bob Meusel",
+        "value": "1565"
+      },
+      {
+        "playerId": 119531,
+        "player": "Thurman Munson",
+        "value": "1558"
+      },
+      {
+        "playerId": 112861,
+        "player": "Frankie Crosetti",
+        "value": "1541"
+      },
+      {
+        "playerId": 458731,
+        "player": "Brett Gardner",
+        "value": "1470"
+      },
+      {
+        "playerId": 121161,
+        "player": "Bobby Richardson",
+        "value": "1432"
+      },
+      {
+        "playerId": 120028,
+        "player": "Paul O'Neill",
+        "value": "1426"
+      },
+      {
+        "playerId": 116204,
+        "player": "Elston Howard",
+        "value": "1405"
+      },
+      {
+        "playerId": 119720,
+        "player": "Graig Nettles",
+        "value": "1396"
+      },
+      {
+        "playerId": 121410,
+        "player": "Red Rolfe",
+        "value": "1394"
+      },
+      {
+        "playerId": 110697,
+        "player": "Hank Bauer",
+        "value": "1326"
+      },
+      {
+        "playerId": 124448,
+        "player": "Dave Winfield",
+        "value": "1300"
+      },
+      {
+        "playerId": 115778,
+        "player": "Tommy Henrich",
+        "value": "1297"
+      },
+      {
+        "playerId": 118655,
+        "player": "Gil McDougald",
+        "value": "1291"
+      },
+      {
+        "playerId": 592450,
+        "player": "Aaron Judge",
+        "value": "1262"
+      },
+      {
+        "playerId": 119535,
+        "player": "Bobby Murcer",
+        "value": "1231"
+      },
+      {
+        "playerId": 112355,
+        "player": "Horace Clarke",
+        "value": "1213"
+      },
+      {
+        "playerId": 112216,
+        "player": "Hal Chase",
+        "value": "1182"
+      },
+      {
+        "playerId": 120344,
+        "player": "Roger Peckinpaugh",
+        "value": "1170"
+      },
+      {
+        "playerId": 117343,
+        "player": "Tony Kubek",
+        "value": "1109"
+      },
+      {
+        "playerId": 122303,
+        "player": "Bill Skowron",
+        "value": "1103"
+      },
+      {
+        "playerId": 112205,
+        "player": "Ben Chapman",
+        "value": "1079"
+      },
+      {
+        "playerId": 116919,
+        "player": "Charlie Keller",
+        "value": "1053"
+      },
+      {
+        "playerId": 118362,
+        "player": "Tino Martinez",
+        "value": "1039"
+      },
+      {
+        "playerId": 114967,
+        "player": "Joe Gordon",
+        "value": "1000"
+      },
+      {
+        "playerId": 425686,
+        "player": "Hideki Matsui",
+        "value": "977"
+      },
+      {
+        "playerId": 116891,
+        "player": "Willie Keeler",
+        "value": "974"
+      },
+      {
+        "playerId": 120586,
+        "player": "Lou Piniella",
+        "value": "971"
+      },
+      {
+        "playerId": 120391,
+        "player": "Joe Pepitone",
+        "value": "967"
+      },
+      {
+        "playerId": 123461,
+        "player": "Tom Tresh",
+        "value": "967"
+      },
+      {
+        "playerId": 112180,
+        "player": "Chris Chambliss",
+        "value": "954"
+      },
+      {
+        "playerId": 122806,
+        "player": "Snuffy Stirnweiss",
+        "value": "899"
+      },
+      {
+        "playerId": 111319,
+        "player": "Clete Boyer",
+        "value": "882"
+      },
+      {
+        "playerId": 407893,
+        "player": "Mark Teixeira",
+        "value": "873"
+      },
+      {
+        "playerId": 113601,
+        "player": "Joe Dugan",
+        "value": "871"
+      },
+      {
+        "playerId": 650402,
+        "player": "Gleyber Torres",
+        "value": "870"
+      },
+      {
+        "playerId": 123910,
+        "player": "Aaron Ward",
+        "value": "840"
+      },
+      {
+        "playerId": 121987,
+        "player": "George Selkirk",
+        "value": "810"
+      },
+      {
+        "playerId": 118287,
+        "player": "Roger Maris",
+        "value": "797"
+      },
+      {
+        "playerId": 114739,
+        "player": "Jason Giambi",
+        "value": "764"
+      },
+      {
+        "playerId": 112810,
+        "player": "Birdie Cree",
+        "value": "761"
+      },
+      {
+        "playerId": 112598,
+        "player": "Wid Conroy",
+        "value": "750"
+      },
+      {
+        "playerId": 518934,
+        "player": "DJ LeMahieu",
+        "value": "746"
+      },
+      {
+        "playerId": 110480,
+        "player": "Home Run Baker",
+        "value": "735"
+      },
+      {
+        "playerId": 117780,
+        "player": "Johnny Lindell",
+        "value": "707"
+      },
+      {
+        "playerId": 111153,
+        "player": "Wade Boggs",
+        "value": "702"
+      },
+      {
+        "playerId": 116640,
+        "player": "Billy Johnson",
+        "value": "694"
+      },
+      {
+        "playerId": 519317,
+        "player": "Giancarlo Stanton",
+        "value": "682"
+      },
+      {
+        "playerId": 150093,
+        "player": "Alfonso Soriano",
+        "value": "677"
+      },
+      {
+        "playerId": 115749,
+        "player": "Rickey Henderson",
+        "value": "663"
+      },
+      {
+        "playerId": 124319,
+        "player": "Jimmy Williams",
+        "value": "663"
+      },
+      {
+        "playerId": 116439,
+        "player": "Reggie Jackson",
+        "value": "661"
+      },
+      {
+        "playerId": 544369,
+        "player": "Didi Gregorius",
+        "value": "659"
+      },
+      {
+        "playerId": 117918,
+        "player": "Hector Lopez",
+        "value": "658"
+      },
+      {
+        "playerId": 124554,
+        "player": "Gene Woodling",
+        "value": "648"
+      },
+      {
+        "playerId": 113790,
+        "player": "Kid Elberfeld",
+        "value": "647"
+      },
+      {
+        "playerId": 116959,
+        "player": "Roberto Kelly",
+        "value": "640"
+      },
+      {
+        "playerId": 113028,
+        "player": "Johnny Damon",
+        "value": "636"
+      },
+      {
+        "playerId": 117230,
+        "player": "Mark Koenig",
+        "value": "636"
+      },
+      {
+        "playerId": 115581,
+        "player": "Roy Hartzell",
+        "value": "617"
+      },
+      {
+        "playerId": 121253,
+        "player": "Mickey Rivers",
+        "value": "598"
+      },
+      {
+        "playerId": 112514,
+        "player": "Joe Collins",
+        "value": "596"
+      },
+      {
+        "playerId": 117197,
+        "player": "Chuck Knoblauch",
+        "value": "579"
+      },
+      {
+        "playerId": 430897,
+        "player": "Nick Swisher",
+        "value": "570"
+      },
+      {
+        "playerId": 111987,
+        "player": "Andy Carey",
+        "value": "567"
+      },
+      {
+        "playerId": 115136,
+        "player": "Ken Griffey Sr.",
+        "value": "563"
+      },
+      {
+        "playerId": 121732,
+        "player": "Steve Sax",
+        "value": "563"
+      },
+      {
+        "playerId": 113923,
+        "player": "Nick Etten",
+        "value": "562"
+      },
+      {
+        "playerId": 119025,
+        "player": "Gene Michael",
+        "value": "561"
+      },
+      {
+        "playerId": 112475,
+        "player": "Jerry Coleman",
+        "value": "558"
+      },
+      {
+        "playerId": 124490,
+        "player": "Whitey Witt",
+        "value": "530"
+      },
+      {
+        "playerId": 120178,
+        "player": "Mike Pagliarulo",
+        "value": "521"
+      },
+      {
+        "playerId": 466320,
+        "player": "Melky Cabrera",
+        "value": "518"
+      },
+      {
+        "playerId": 113275,
+        "player": "Bucky Dent",
+        "value": "518"
+      },
+      {
+        "playerId": 123690,
+        "player": "Randy Velarde",
+        "value": "518"
+      },
+      {
+        "playerId": 453056,
+        "player": "Jacoby Ellsbury",
+        "value": "511"
+      },
+      {
+        "playerId": 111515,
+        "player": "Scott Brosius",
+        "value": "507"
+      },
+      {
+        "playerId": 117497,
+        "player": "Frank LaPorte",
+        "value": "507"
+      },
+      {
+        "playerId": 115348,
+        "player": "Mel Hall",
+        "value": "490"
+      },
+      {
+        "playerId": 121771,
+        "player": "Wally Schang",
+        "value": "483"
+      },
+      {
+        "playerId": 543305,
+        "player": "Aaron Hicks",
+        "value": "477"
+      },
+      {
+        "playerId": 117520,
+        "player": "Lyn Lary",
+        "value": "471"
+      },
+      {
+        "playerId": 120743,
+        "player": "Del Pratt",
+        "value": "465"
+      }
+    ],
+    "hitting.rbi": [
+      {
+        "playerId": 114680,
+        "player": "Lou Gehrig",
+        "value": "1995"
+      },
+      {
+        "playerId": 121578,
+        "player": "Babe Ruth",
+        "value": "1971"
+      },
+      {
+        "playerId": 113376,
+        "player": "Joe DiMaggio",
+        "value": "1537"
+      },
+      {
+        "playerId": 118258,
+        "player": "Mickey Mantle",
+        "value": "1509"
+      },
+      {
+        "playerId": 110925,
+        "player": "Yogi Berra",
+        "value": "1430"
+      },
+      {
+        "playerId": 116539,
+        "player": "Derek Jeter",
+        "value": "1311"
+      },
+      {
+        "playerId": 124288,
+        "player": "Bernie Williams",
+        "value": "1257"
+      },
+      {
+        "playerId": 113340,
+        "player": "Bill Dickey",
+        "value": "1209"
+      },
+      {
+        "playerId": 117577,
+        "player": "Tony Lazzeri",
+        "value": "1154"
+      },
+      {
+        "playerId": 118443,
+        "player": "Don Mattingly",
+        "value": "1099"
+      },
+      {
+        "playerId": 121347,
+        "player": "Alex Rodriguez",
+        "value": "1096"
+      },
+      {
+        "playerId": 120691,
+        "player": "Jorge Posada",
+        "value": "1065"
+      },
+      {
+        "playerId": 119006,
+        "player": "Bob Meusel",
+        "value": "1005"
+      },
+      {
+        "playerId": 592450,
+        "player": "Aaron Judge",
+        "value": "871"
+      },
+      {
+        "playerId": 120028,
+        "player": "Paul O'Neill",
+        "value": "858"
+      },
+      {
+        "playerId": 119720,
+        "player": "Graig Nettles",
+        "value": "834"
+      },
+      {
+        "playerId": 120594,
+        "player": "Wally Pipp",
+        "value": "826"
+      },
+      {
+        "playerId": 429664,
+        "player": "Robinson Can\u00f3",
+        "value": "822"
+      },
+      {
+        "playerId": 124448,
+        "player": "Dave Winfield",
+        "value": "818"
+      },
+      {
+        "playerId": 115778,
+        "player": "Tommy Henrich",
+        "value": "795"
+      },
+      {
+        "playerId": 124186,
+        "player": "Roy White",
+        "value": "758"
+      },
+      {
+        "playerId": 118362,
+        "player": "Tino Martinez",
+        "value": "739"
+      },
+      {
+        "playerId": 116204,
+        "player": "Elston Howard",
+        "value": "733"
+      },
+      {
+        "playerId": 116919,
+        "player": "Charlie Keller",
+        "value": "723"
+      },
+      {
+        "playerId": 119531,
+        "player": "Thurman Munson",
+        "value": "701"
+      },
+      {
+        "playerId": 119535,
+        "player": "Bobby Murcer",
+        "value": "687"
+      },
+      {
+        "playerId": 122303,
+        "player": "Bill Skowron",
+        "value": "672"
+      },
+      {
+        "playerId": 110697,
+        "player": "Hank Bauer",
+        "value": "654"
+      },
+      {
+        "playerId": 112861,
+        "player": "Frankie Crosetti",
+        "value": "649"
+      },
+      {
+        "playerId": 112533,
+        "player": "Earle Combs",
+        "value": "632"
+      },
+      {
+        "playerId": 407893,
+        "player": "Mark Teixeira",
+        "value": "622"
+      },
+      {
+        "playerId": 114967,
+        "player": "Joe Gordon",
+        "value": "617"
+      },
+      {
+        "playerId": 114739,
+        "player": "Jason Giambi",
+        "value": "604"
+      },
+      {
+        "playerId": 425686,
+        "player": "Hideki Matsui",
+        "value": "597"
+      },
+      {
+        "playerId": 112205,
+        "player": "Ben Chapman",
+        "value": "589"
+      },
+      {
+        "playerId": 458731,
+        "player": "Brett Gardner",
+        "value": "578"
+      },
+      {
+        "playerId": 118655,
+        "player": "Gil McDougald",
+        "value": "576"
+      },
+      {
+        "playerId": 121987,
+        "player": "George Selkirk",
+        "value": "576"
+      },
+      {
+        "playerId": 121257,
+        "player": "Phil Rizzuto",
+        "value": "563"
+      },
+      {
+        "playerId": 120927,
+        "player": "Willie Randolph",
+        "value": "549"
+      },
+      {
+        "playerId": 118287,
+        "player": "Roger Maris",
+        "value": "547"
+      },
+      {
+        "playerId": 120391,
+        "player": "Joe Pepitone",
+        "value": "541"
+      },
+      {
+        "playerId": 519317,
+        "player": "Giancarlo Stanton",
+        "value": "511"
+      },
+      {
+        "playerId": 121410,
+        "player": "Red Rolfe",
+        "value": "497"
+      },
+      {
+        "playerId": 112216,
+        "player": "Hal Chase",
+        "value": "494"
+      },
+      {
+        "playerId": 123461,
+        "player": "Tom Tresh",
+        "value": "493"
+      },
+      {
+        "playerId": 116439,
+        "player": "Reggie Jackson",
+        "value": "461"
+      },
+      {
+        "playerId": 112180,
+        "player": "Chris Chambliss",
+        "value": "454"
+      },
+      {
+        "playerId": 650402,
+        "player": "Gleyber Torres",
+        "value": "441"
+      },
+      {
+        "playerId": 120344,
+        "player": "Roger Peckinpaugh",
+        "value": "427"
+      },
+      {
+        "playerId": 120586,
+        "player": "Lou Piniella",
+        "value": "417"
+      },
+      {
+        "playerId": 111319,
+        "player": "Clete Boyer",
+        "value": "393"
+      },
+      {
+        "playerId": 121161,
+        "player": "Bobby Richardson",
+        "value": "390"
+      },
+      {
+        "playerId": 123910,
+        "player": "Aaron Ward",
+        "value": "390"
+      },
+      {
+        "playerId": 116640,
+        "player": "Billy Johnson",
+        "value": "388"
+      },
+      {
+        "playerId": 110480,
+        "player": "Home Run Baker",
+        "value": "375"
+      },
+      {
+        "playerId": 117343,
+        "player": "Tony Kubek",
+        "value": "373"
+      },
+      {
+        "playerId": 117780,
+        "player": "Johnny Lindell",
+        "value": "369"
+      },
+      {
+        "playerId": 544369,
+        "player": "Didi Gregorius",
+        "value": "360"
+      },
+      {
+        "playerId": 113923,
+        "player": "Nick Etten",
+        "value": "358"
+      },
+      {
+        "playerId": 124319,
+        "player": "Jimmy Williams",
+        "value": "358"
+      },
+      {
+        "playerId": 430897,
+        "player": "Nick Swisher",
+        "value": "349"
+      },
+      {
+        "playerId": 150093,
+        "player": "Alfonso Soriano",
+        "value": "343"
+      },
+      {
+        "playerId": 596142,
+        "player": "Gary S\u00e1nchez",
+        "value": "340"
+      },
+      {
+        "playerId": 120178,
+        "player": "Mike Pagliarulo",
+        "value": "337"
+      },
+      {
+        "playerId": 124554,
+        "player": "Gene Woodling",
+        "value": "336"
+      },
+      {
+        "playerId": 112810,
+        "player": "Birdie Cree",
+        "value": "332"
+      },
+      {
+        "playerId": 112514,
+        "player": "Joe Collins",
+        "value": "329"
+      },
+      {
+        "playerId": 117918,
+        "player": "Hector Lopez",
+        "value": "322"
+      },
+      {
+        "playerId": 113601,
+        "player": "Joe Dugan",
+        "value": "320"
+      },
+      {
+        "playerId": 518934,
+        "player": "DJ LeMahieu",
+        "value": "314"
+      },
+      {
+        "playerId": 434158,
+        "player": "Curtis Granderson",
+        "value": "307"
+      },
+      {
+        "playerId": 112355,
+        "player": "Horace Clarke",
+        "value": "300"
+      },
+      {
+        "playerId": 113028,
+        "player": "Johnny Damon",
+        "value": "296"
+      },
+      {
+        "playerId": 111515,
+        "player": "Scott Brosius",
+        "value": "282"
+      },
+      {
+        "playerId": 123096,
+        "player": "Danny Tartabull",
+        "value": "282"
+      },
+      {
+        "playerId": 543305,
+        "player": "Aaron Hicks",
+        "value": "278"
+      },
+      {
+        "playerId": 114558,
+        "player": "Oscar Gamble",
+        "value": "276"
+      },
+      {
+        "playerId": 122111,
+        "player": "Gary Sheffield",
+        "value": "269"
+      },
+      {
+        "playerId": 112598,
+        "player": "Wid Conroy",
+        "value": "266"
+      },
+      {
+        "playerId": 115581,
+        "player": "Roy Hartzell",
+        "value": "266"
+      },
+      {
+        "playerId": 110719,
+        "player": "Don Baylor",
+        "value": "265"
+      },
+      {
+        "playerId": 115348,
+        "player": "Mel Hall",
+        "value": "265"
+      },
+      {
+        "playerId": 122673,
+        "player": "Mike Stanley",
+        "value": "263"
+      },
+      {
+        "playerId": 111987,
+        "player": "Andy Carey",
+        "value": "259"
+      },
+      {
+        "playerId": 116959,
+        "player": "Roberto Kelly",
+        "value": "259"
+      },
+      {
+        "playerId": 113790,
+        "player": "Kid Elberfeld",
+        "value": "257"
+      },
+      {
+        "playerId": 115749,
+        "player": "Rickey Henderson",
+        "value": "255"
+      },
+      {
+        "playerId": 122806,
+        "player": "Snuffy Stirnweiss",
+        "value": "253"
+      },
+      {
+        "playerId": 117747,
+        "player": "Jim Leyritz",
+        "value": "252"
+      },
+      {
+        "playerId": 115136,
+        "player": "Ken Griffey Sr.",
+        "value": "251"
+      },
+      {
+        "playerId": 111153,
+        "player": "Wade Boggs",
+        "value": "246"
+      },
+      {
+        "playerId": 110029,
+        "player": "Bobby Abreu",
+        "value": "243"
+      },
+      {
+        "playerId": 117230,
+        "player": "Mark Koenig",
+        "value": "241"
+      },
+      {
+        "playerId": 111588,
+        "player": "Bobby Brown",
+        "value": "237"
+      },
+      {
+        "playerId": 117520,
+        "player": "Lyn Lary",
+        "value": "237"
+      },
+      {
+        "playerId": 466320,
+        "player": "Melky Cabrera",
+        "value": "228"
+      },
+      {
+        "playerId": 117497,
+        "player": "Frank LaPorte",
+        "value": "227"
+      },
+      {
+        "playerId": 435263,
+        "player": "Brian McCann",
+        "value": "227"
+      },
+      {
+        "playerId": 119820,
+        "player": "Matt Nokes",
+        "value": "222"
+      }
+    ],
+    "hitting.stolenBases": [
+      {
+        "playerId": 116539,
+        "player": "Derek Jeter",
+        "value": "358"
+      },
+      {
+        "playerId": 115749,
+        "player": "Rickey Henderson",
+        "value": "326"
+      },
+      {
+        "playerId": 458731,
+        "player": "Brett Gardner",
+        "value": "274"
+      },
+      {
+        "playerId": 120927,
+        "player": "Willie Randolph",
+        "value": "251"
+      },
+      {
+        "playerId": 112216,
+        "player": "Hal Chase",
+        "value": "248"
+      },
+      {
+        "playerId": 124186,
+        "player": "Roy White",
+        "value": "233"
+      },
+      {
+        "playerId": 112205,
+        "player": "Ben Chapman",
+        "value": "184"
+      },
+      {
+        "playerId": 112598,
+        "player": "Wid Conroy",
+        "value": "184"
+      },
+      {
+        "playerId": 118179,
+        "player": "Fritz Maisel",
+        "value": "183"
+      },
+      {
+        "playerId": 118258,
+        "player": "Mickey Mantle",
+        "value": "153"
+      },
+      {
+        "playerId": 121347,
+        "player": "Alex Rodriguez",
+        "value": "152"
+      },
+      {
+        "playerId": 112355,
+        "player": "Horace Clarke",
+        "value": "151"
+      },
+      {
+        "playerId": 116959,
+        "player": "Roberto Kelly",
+        "value": "151"
+      },
+      {
+        "playerId": 121257,
+        "player": "Phil Rizzuto",
+        "value": "149"
+      },
+      {
+        "playerId": 117577,
+        "player": "Tony Lazzeri",
+        "value": "147"
+      },
+      {
+        "playerId": 124288,
+        "player": "Bernie Williams",
+        "value": "147"
+      },
+      {
+        "playerId": 113035,
+        "player": "Bert Daniels",
+        "value": "145"
+      },
+      {
+        "playerId": 120344,
+        "player": "Roger Peckinpaugh",
+        "value": "143"
+      },
+      {
+        "playerId": 119006,
+        "player": "Bob Meusel",
+        "value": "133"
+      },
+      {
+        "playerId": 112810,
+        "player": "Birdie Cree",
+        "value": "132"
+      },
+      {
+        "playerId": 150093,
+        "player": "Alfonso Soriano",
+        "value": "130"
+      },
+      {
+        "playerId": 122806,
+        "player": "Snuffy Stirnweiss",
+        "value": "130"
+      },
+      {
+        "playerId": 116891,
+        "player": "Willie Keeler",
+        "value": "118"
+      },
+      {
+        "playerId": 113790,
+        "player": "Kid Elberfeld",
+        "value": "117"
+      },
+      {
+        "playerId": 121732,
+        "player": "Steve Sax",
+        "value": "117"
+      },
+      {
+        "playerId": 120594,
+        "player": "Wally Pipp",
+        "value": "114"
+      },
+      {
+        "playerId": 112861,
+        "player": "Frankie Crosetti",
+        "value": "113"
+      },
+      {
+        "playerId": 117197,
+        "player": "Chuck Knoblauch",
+        "value": "112"
+      },
+      {
+        "playerId": 121578,
+        "player": "Babe Ruth",
+        "value": "110"
+      },
+      {
+        "playerId": 453056,
+        "player": "Jacoby Ellsbury",
+        "value": "102"
+      },
+      {
+        "playerId": 114680,
+        "player": "Lou Gehrig",
+        "value": "102"
+      },
+      {
+        "playerId": 115581,
+        "player": "Roy Hartzell",
+        "value": "98"
+      },
+      {
+        "playerId": 112533,
+        "player": "Earle Combs",
+        "value": "96"
+      },
+      {
+        "playerId": 113028,
+        "player": "Johnny Damon",
+        "value": "93"
+      },
+      {
+        "playerId": 121253,
+        "player": "Mickey Rivers",
+        "value": "93"
+      },
+      {
+        "playerId": 665862,
+        "player": "Jazz Chisholm Jr.",
+        "value": "90"
+      },
+      {
+        "playerId": 114490,
+        "player": "Dave Fultz",
+        "value": "90"
+      },
+      {
+        "playerId": 124520,
+        "player": "Harry Wolter",
+        "value": "85"
+      },
+      {
+        "playerId": 683011,
+        "player": "Anthony Volpe",
+        "value": "82"
+      },
+      {
+        "playerId": 115739,
+        "player": "Charlie Hemphill",
+        "value": "80"
+      },
+      {
+        "playerId": 120028,
+        "player": "Paul O'Neill",
+        "value": "80"
+      },
+      {
+        "playerId": 124448,
+        "player": "Dave Winfield",
+        "value": "76"
+      },
+      {
+        "playerId": 119535,
+        "player": "Bobby Murcer",
+        "value": "74"
+      },
+      {
+        "playerId": 121161,
+        "player": "Bobby Richardson",
+        "value": "73"
+      },
+      {
+        "playerId": 592450,
+        "player": "Aaron Judge",
+        "value": "70"
+      },
+      {
+        "playerId": 114967,
+        "player": "Joe Gordon",
+        "value": "68"
+      },
+      {
+        "playerId": 110480,
+        "player": "Home Run Baker",
+        "value": "63"
+      },
+      {
+        "playerId": 117194,
+        "player": "John Knight",
+        "value": "63"
+      },
+      {
+        "playerId": 116024,
+        "player": "Danny Hoffman",
+        "value": "62"
+      },
+      {
+        "playerId": 123036,
+        "player": "Ed Sweeney",
+        "value": "62"
+      },
+      {
+        "playerId": 116996,
+        "player": "Jerry Kenney",
+        "value": "59"
+      },
+      {
+        "playerId": 124319,
+        "player": "Jimmy Williams",
+        "value": "59"
+      },
+      {
+        "playerId": 118886,
+        "player": "Bobby Meacham",
+        "value": "58"
+      },
+      {
+        "playerId": 119383,
+        "player": "George Moriarty",
+        "value": "58"
+      },
+      {
+        "playerId": 110029,
+        "player": "Bobby Abreu",
+        "value": "57"
+      },
+      {
+        "playerId": 112625,
+        "player": "Doc Cook",
+        "value": "56"
+      },
+      {
+        "playerId": 116955,
+        "player": "Pat Kelly",
+        "value": "56"
+      },
+      {
+        "playerId": 434158,
+        "player": "Curtis Granderson",
+        "value": "55"
+      },
+      {
+        "playerId": 650402,
+        "player": "Gleyber Torres",
+        "value": "53"
+      },
+      {
+        "playerId": 110389,
+        "player": "Jimmy Austin",
+        "value": "52"
+      },
+      {
+        "playerId": 676609,
+        "player": "Jos\u00e9 Caballero",
+        "value": "49"
+      },
+      {
+        "playerId": 121987,
+        "player": "George Selkirk",
+        "value": "49"
+      },
+      {
+        "playerId": 400085,
+        "player": "Ichiro Suzuki",
+        "value": "49"
+      },
+      {
+        "playerId": 110697,
+        "player": "Hank Bauer",
+        "value": "48"
+      },
+      {
+        "playerId": 119531,
+        "player": "Thurman Munson",
+        "value": "48"
+      },
+      {
+        "playerId": 456488,
+        "player": "Eduardo N\u00fa\u00f1ez",
+        "value": "48"
+      },
+      {
+        "playerId": 110185,
+        "player": "Sandy Alomar Sr.",
+        "value": "46"
+      },
+      {
+        "playerId": 120743,
+        "player": "Del Pratt",
+        "value": "46"
+      },
+      {
+        "playerId": 116919,
+        "player": "Charlie Keller",
+        "value": "45"
+      },
+      {
+        "playerId": 117497,
+        "player": "Frank LaPorte",
+        "value": "45"
+      },
+      {
+        "playerId": 118655,
+        "player": "Gil McDougald",
+        "value": "45"
+      },
+      {
+        "playerId": 466320,
+        "player": "Melky Cabrera",
+        "value": "44"
+      },
+      {
+        "playerId": 120658,
+        "player": "Luis Polonia",
+        "value": "44"
+      },
+      {
+        "playerId": 121410,
+        "player": "Red Rolfe",
+        "value": "44"
+      },
+      {
+        "playerId": 115919,
+        "player": "Hugh High",
+        "value": "43"
+      },
+      {
+        "playerId": 123461,
+        "player": "Tom Tresh",
+        "value": "43"
+      },
+      {
+        "playerId": 117520,
+        "player": "Lyn Lary",
+        "value": "42"
+      },
+      {
+        "playerId": 112963,
+        "player": "Chad Curtis",
+        "value": "41"
+      },
+      {
+        "playerId": 116439,
+        "player": "Reggie Jackson",
+        "value": "41"
+      },
+      {
+        "playerId": 543305,
+        "player": "Aaron Hicks",
+        "value": "39"
+      },
+      {
+        "playerId": 429664,
+        "player": "Robinson Can\u00f3",
+        "value": "38"
+      },
+      {
+        "playerId": 114605,
+        "player": "Earle Gardner",
+        "value": "38"
+      },
+      {
+        "playerId": 117146,
+        "player": "Red Kleinow",
+        "value": "38"
+      },
+      {
+        "playerId": 691176,
+        "player": "Jasson Dom\u00ednguez",
+        "value": "37"
+      },
+      {
+        "playerId": 115778,
+        "player": "Tommy Henrich",
+        "value": "37"
+      },
+      {
+        "playerId": 113340,
+        "player": "Bill Dickey",
+        "value": "36"
+      },
+      {
+        "playerId": 643396,
+        "player": "Isiah Kiner-Falefa",
+        "value": "36"
+      },
+      {
+        "playerId": 110513,
+        "player": "Neal Ball",
+        "value": "35"
+      },
+      {
+        "playerId": 114791,
+        "player": "Frank Gilhooley",
+        "value": "35"
+      },
+      {
+        "playerId": 123962,
+        "player": "Claudell Washington",
+        "value": "34"
+      },
+      {
+        "playerId": 111589,
+        "player": "Bobby Brown",
+        "value": "33"
+      },
+      {
+        "playerId": 111867,
+        "player": "Miguel Cairo",
+        "value": "32"
+      },
+      {
+        "playerId": 118134,
+        "player": "Lee Magee",
+        "value": "32"
+      },
+      {
+        "playerId": 111219,
+        "player": "Lute Boone",
+        "value": "31"
+      },
+      {
+        "playerId": 120391,
+        "player": "Joe Pepitone",
+        "value": "31"
+      },
+      {
+        "playerId": 110925,
+        "player": "Yogi Berra",
+        "value": "30"
+      },
+      {
+        "playerId": 111189,
+        "player": "Bobby Bonds",
+        "value": "30"
+      },
+      {
+        "playerId": 113376,
+        "player": "Joe DiMaggio",
+        "value": "30"
+      },
+      {
+        "playerId": 642180,
+        "player": "Tyler Wade",
+        "value": "30"
+      },
+      {
+        "playerId": 123910,
+        "player": "Aaron Ward",
+        "value": "30"
+      }
+    ],
+    "pitching.wins": [
+      {
+        "playerId": 114299,
+        "player": "Whitey Ford",
+        "value": "236"
+      },
+      {
+        "playerId": 121547,
+        "player": "Red Ruffing",
+        "value": "231"
+      },
+      {
+        "playerId": 120485,
+        "player": "Andy Pettitte",
+        "value": "219"
+      },
+      {
+        "playerId": 114917,
+        "player": "Lefty Gomez",
+        "value": "189"
+      },
+      {
+        "playerId": 115228,
+        "player": "Ron Guidry",
+        "value": "170"
+      },
+      {
+        "playerId": 122083,
+        "player": "Bob Shawkey",
+        "value": "168"
+      },
+      {
+        "playerId": 122839,
+        "player": "Mel Stottlemyre Sr.",
+        "value": "164"
+      },
+      {
+        "playerId": 120386,
+        "player": "Herb Pennock",
+        "value": "162"
+      },
+      {
+        "playerId": 116241,
+        "player": "Waite Hoyt",
+        "value": "157"
+      },
+      {
+        "playerId": 282332,
+        "player": "CC Sabathia",
+        "value": "134"
+      },
+      {
+        "playerId": 121100,
+        "player": "Allie Reynolds",
+        "value": "131"
+      },
+      {
+        "playerId": 112233,
+        "player": "Jack Chesbro",
+        "value": "128"
+      },
+      {
+        "playerId": 119608,
+        "player": "Mike Mussina",
+        "value": "123"
+      },
+      {
+        "playerId": 120935,
+        "player": "Vic Raschi",
+        "value": "120"
+      },
+      {
+        "playerId": 117909,
+        "player": "Ed Lopat",
+        "value": "113"
+      },
+      {
+        "playerId": 112187,
+        "player": "Spud Chandler",
+        "value": "109"
+      },
+      {
+        "playerId": 120466,
+        "player": "Fritz Peterson",
+        "value": "109"
+      },
+      {
+        "playerId": 111876,
+        "player": "Ray Caldwell",
+        "value": "96"
+      },
+      {
+        "playerId": 119560,
+        "player": "Johnny Murphy",
+        "value": "93"
+      },
+      {
+        "playerId": 120593,
+        "player": "George Pipgras",
+        "value": "93"
+      },
+      {
+        "playerId": 116550,
+        "player": "Tommy John",
+        "value": "91"
+      },
+      {
+        "playerId": 112388,
+        "player": "Roger Clemens",
+        "value": "83"
+      },
+      {
+        "playerId": 121250,
+        "player": "Mariano Rivera",
+        "value": "82"
+      },
+      {
+        "playerId": 123509,
+        "player": "Bob Turley",
+        "value": "82"
+      },
+      {
+        "playerId": 120843,
+        "player": "Jack Quinn",
+        "value": "81"
+      },
+      {
+        "playerId": 118494,
+        "player": "Carl Mays",
+        "value": "80"
+      },
+      {
+        "playerId": 111195,
+        "player": "Tiny Bonham",
+        "value": "79"
+      },
+      {
+        "playerId": 547888,
+        "player": "Masahiro Tanaka",
+        "value": "78"
+      },
+      {
+        "playerId": 123200,
+        "player": "Ralph Terry",
+        "value": "78"
+      },
+      {
+        "playerId": 114176,
+        "player": "Ray Fisher",
+        "value": "76"
+      },
+      {
+        "playerId": 121201,
+        "player": "Dave Righetti",
+        "value": "74"
+      },
+      {
+        "playerId": 114305,
+        "player": "Russ Ford",
+        "value": "73"
+      },
+      {
+        "playerId": 111842,
+        "player": "Tommy Byrne",
+        "value": "72"
+      },
+      {
+        "playerId": 113515,
+        "player": "Al Downing",
+        "value": "72"
+      },
+      {
+        "playerId": 120072,
+        "player": "Al Orth",
+        "value": "72"
+      },
+      {
+        "playerId": 543037,
+        "player": "Gerrit Cole",
+        "value": "69"
+      },
+      {
+        "playerId": 123935,
+        "player": "Jack Warhop",
+        "value": "69"
+      },
+      {
+        "playerId": 124071,
+        "player": "David Wells",
+        "value": "68"
+      },
+      {
+        "playerId": 116726,
+        "player": "Sad Sam Jones",
+        "value": "67"
+      },
+      {
+        "playerId": 113440,
+        "player": "Atley Donald",
+        "value": "65"
+      },
+      {
+        "playerId": 112552,
+        "player": "David Cone",
+        "value": "64"
+      },
+      {
+        "playerId": 116334,
+        "player": "Catfish Hunter",
+        "value": "63"
+      },
+      {
+        "playerId": 120339,
+        "player": "Monte Pearson",
+        "value": "63"
+      },
+      {
+        "playerId": 111793,
+        "player": "Bullet Joe Bush",
+        "value": "62"
+      },
+      {
+        "playerId": 114116,
+        "player": "Ed Figueroa",
+        "value": "62"
+      },
+      {
+        "playerId": 133340,
+        "player": "Orlando Hernandez",
+        "value": "61"
+      },
+      {
+        "playerId": 122176,
+        "player": "Urban Shocker",
+        "value": "61"
+      },
+      {
+        "playerId": 118026,
+        "player": "Sparky Lyle",
+        "value": "57"
+      },
+      {
+        "playerId": 120170,
+        "player": "Joe Page",
+        "value": "57"
+      },
+      {
+        "playerId": 111245,
+        "player": "Hank Borowy",
+        "value": "56"
+      },
+      {
+        "playerId": 461833,
+        "player": "Phil Hughes",
+        "value": "56"
+      },
+      {
+        "playerId": 110434,
+        "player": "Stan Bahnsen",
+        "value": "55"
+      },
+      {
+        "playerId": 111279,
+        "player": "Jim Bouton",
+        "value": "55"
+      },
+      {
+        "playerId": 425426,
+        "player": "Chien-Ming Wang",
+        "value": "55"
+      },
+      {
+        "playerId": 118477,
+        "player": "Rudy May",
+        "value": "54"
+      },
+      {
+        "playerId": 118947,
+        "player": "Ramiro Mendoza",
+        "value": "54"
+      },
+      {
+        "playerId": 622663,
+        "player": "Luis Severino",
+        "value": "54"
+      },
+      {
+        "playerId": 467100,
+        "player": "Iv\u00e1n Nova",
+        "value": "53"
+      },
+      {
+        "playerId": 110152,
+        "player": "Johnny Allen",
+        "value": "50"
+      },
+      {
+        "playerId": 115291,
+        "player": "Bump Hadley",
+        "value": "49"
+      },
+      {
+        "playerId": 118900,
+        "player": "Doc Medich",
+        "value": "49"
+      },
+      {
+        "playerId": 117032,
+        "player": "Jimmy Key",
+        "value": "48"
+      },
+      {
+        "playerId": 119224,
+        "player": "George Mogridge",
+        "value": "48"
+      },
+      {
+        "playerId": 113393,
+        "player": "Art Ditmar",
+        "value": "47"
+      },
+      {
+        "playerId": 116592,
+        "player": "Hank Johnson",
+        "value": "47"
+      },
+      {
+        "playerId": 115160,
+        "player": "Bob Grim",
+        "value": "45"
+      },
+      {
+        "playerId": 117514,
+        "player": "Don Larsen",
+        "value": "45"
+      },
+      {
+        "playerId": 121575,
+        "player": "Marius Russo",
+        "value": "45"
+      },
+      {
+        "playerId": 607074,
+        "player": "Carlos Rod\u00f3n",
+        "value": "44"
+      },
+      {
+        "playerId": 122636,
+        "player": "Bill Stafford",
+        "value": "43"
+      },
+      {
+        "playerId": 114989,
+        "player": "Rich Gossage",
+        "value": "42"
+      },
+      {
+        "playerId": 117350,
+        "player": "Johnny Kucks",
+        "value": "42"
+      },
+      {
+        "playerId": 123333,
+        "player": "Dick Tidrow",
+        "value": "41"
+      },
+      {
+        "playerId": 110965,
+        "player": "Bill Bevens",
+        "value": "40"
+      },
+      {
+        "playerId": 111490,
+        "player": "Johnny Broaca",
+        "value": "40"
+      },
+      {
+        "playerId": 117156,
+        "player": "Steve Kline",
+        "value": "40"
+      },
+      {
+        "playerId": 113410,
+        "player": "Pat Dobson",
+        "value": "39"
+      },
+      {
+        "playerId": 120936,
+        "player": "Dennis Rasmussen",
+        "value": "39"
+      },
+      {
+        "playerId": 493133,
+        "player": "Hiroki Kuroda",
+        "value": "38"
+      },
+      {
+        "playerId": 118624,
+        "player": "Lindy McDaniel",
+        "value": "38"
+      },
+      {
+        "playerId": 119377,
+        "player": "Tom Morgan",
+        "value": "38"
+      },
+      {
+        "playerId": 502085,
+        "player": "David Robertson",
+        "value": "38"
+      },
+      {
+        "playerId": 112427,
+        "player": "Jim Coates",
+        "value": "37"
+      },
+      {
+        "playerId": 116050,
+        "player": "Bill Hogg",
+        "value": "37"
+      },
+      {
+        "playerId": 124072,
+        "player": "Ed Wells",
+        "value": "37"
+      },
+      {
+        "playerId": 116824,
+        "player": "Scott Kamieniecki",
+        "value": "36"
+      },
+      {
+        "playerId": 119327,
+        "player": "Wilcy Moore",
+        "value": "36"
+      },
+      {
+        "playerId": 122910,
+        "player": "Tom Sturdivant",
+        "value": "36"
+      },
+      {
+        "playerId": 150359,
+        "player": "A.J. Burnett",
+        "value": "34"
+      },
+      {
+        "playerId": 115384,
+        "player": "Steve Hamilton",
+        "value": "34"
+      },
+      {
+        "playerId": 116615,
+        "player": "Randy Johnson",
+        "value": "34"
+      },
+      {
+        "playerId": 641482,
+        "player": "Nestor Cortes",
+        "value": "33"
+      },
+      {
+        "playerId": 643338,
+        "player": "Chad Green",
+        "value": "33"
+      },
+      {
+        "playerId": 120411,
+        "player": "Melido Perez",
+        "value": "33"
+      },
+      {
+        "playerId": 121623,
+        "player": "Johnny Sain",
+        "value": "33"
+      },
+      {
+        "playerId": 115150,
+        "player": "Clark Griffith",
+        "value": "32"
+      },
+      {
+        "playerId": 119786,
+        "player": "Phil Niekro",
+        "value": "32"
+      },
+      {
+        "playerId": 593334,
+        "player": "Domingo Germ\u00e1n",
+        "value": "31"
+      },
+      {
+        "playerId": 116909,
+        "player": "Mike Kekich",
+        "value": "31"
+      },
+      {
+        "playerId": 501381,
+        "player": "Michael Pineda",
+        "value": "31"
+      },
+      {
+        "playerId": 120718,
+        "player": "Jack Powell",
+        "value": "31"
+      },
+      {
+        "playerId": 122681,
+        "player": "Mike Stanton",
+        "value": "31"
+      },
+      {
+        "playerId": 124233,
+        "player": "Bob Wickman",
+        "value": "31"
+      }
+    ],
+    "pitching.strikeouts": [
+      {
+        "playerId": 120485,
+        "player": "Andy Pettitte",
+        "value": "2020"
+      },
+      {
+        "playerId": 114299,
+        "player": "Whitey Ford",
+        "value": "1956"
+      },
+      {
+        "playerId": 115228,
+        "player": "Ron Guidry",
+        "value": "1778"
+      },
+      {
+        "playerId": 282332,
+        "player": "CC Sabathia",
+        "value": "1700"
+      },
+      {
+        "playerId": 121547,
+        "player": "Red Ruffing",
+        "value": "1526"
+      },
+      {
+        "playerId": 114917,
+        "player": "Lefty Gomez",
+        "value": "1468"
+      },
+      {
+        "playerId": 119608,
+        "player": "Mike Mussina",
+        "value": "1278"
+      },
+      {
+        "playerId": 122839,
+        "player": "Mel Stottlemyre Sr.",
+        "value": "1257"
+      },
+      {
+        "playerId": 121250,
+        "player": "Mariano Rivera",
+        "value": "1173"
+      },
+      {
+        "playerId": 122083,
+        "player": "Bob Shawkey",
+        "value": "1163"
+      },
+      {
+        "playerId": 543037,
+        "player": "Gerrit Cole",
+        "value": "1046"
+      },
+      {
+        "playerId": 113515,
+        "player": "Al Downing",
+        "value": "1028"
+      },
+      {
+        "playerId": 112388,
+        "player": "Roger Clemens",
+        "value": "1014"
+      },
+      {
+        "playerId": 547888,
+        "player": "Masahiro Tanaka",
+        "value": "991"
+      },
+      {
+        "playerId": 121100,
+        "player": "Allie Reynolds",
+        "value": "967"
+      },
+      {
+        "playerId": 121201,
+        "player": "Dave Righetti",
+        "value": "940"
+      },
+      {
+        "playerId": 112233,
+        "player": "Jack Chesbro",
+        "value": "913"
+      },
+      {
+        "playerId": 123509,
+        "player": "Bob Turley",
+        "value": "909"
+      },
+      {
+        "playerId": 120466,
+        "player": "Fritz Peterson",
+        "value": "893"
+      },
+      {
+        "playerId": 112552,
+        "player": "David Cone",
+        "value": "888"
+      },
+      {
+        "playerId": 120935,
+        "player": "Vic Raschi",
+        "value": "832"
+      },
+      {
+        "playerId": 111876,
+        "player": "Ray Caldwell",
+        "value": "803"
+      },
+      {
+        "playerId": 622663,
+        "player": "Luis Severino",
+        "value": "788"
+      },
+      {
+        "playerId": 116241,
+        "player": "Waite Hoyt",
+        "value": "713"
+      },
+      {
+        "playerId": 133340,
+        "player": "Orlando Hernandez",
+        "value": "703"
+      },
+      {
+        "playerId": 120386,
+        "player": "Herb Pennock",
+        "value": "700"
+      },
+      {
+        "playerId": 502085,
+        "player": "David Robertson",
+        "value": "666"
+      },
+      {
+        "playerId": 461833,
+        "player": "Phil Hughes",
+        "value": "656"
+      },
+      {
+        "playerId": 120593,
+        "player": "George Pipgras",
+        "value": "656"
+      },
+      {
+        "playerId": 476454,
+        "player": "Dellin Betances",
+        "value": "621"
+      },
+      {
+        "playerId": 123200,
+        "player": "Ralph Terry",
+        "value": "615"
+      },
+      {
+        "playerId": 112187,
+        "player": "Spud Chandler",
+        "value": "614"
+      },
+      {
+        "playerId": 111842,
+        "player": "Tommy Byrne",
+        "value": "592"
+      },
+      {
+        "playerId": 118477,
+        "player": "Rudy May",
+        "value": "586"
+      },
+      {
+        "playerId": 114176,
+        "player": "Ray Fisher",
+        "value": "583"
+      },
+      {
+        "playerId": 641482,
+        "player": "Nestor Cortes",
+        "value": "564"
+      },
+      {
+        "playerId": 111279,
+        "player": "Jim Bouton",
+        "value": "561"
+      },
+      {
+        "playerId": 124071,
+        "player": "David Wells",
+        "value": "557"
+      },
+      {
+        "playerId": 114305,
+        "player": "Russ Ford",
+        "value": "553"
+      },
+      {
+        "playerId": 607074,
+        "player": "Carlos Rod\u00f3n",
+        "value": "553"
+      },
+      {
+        "playerId": 593334,
+        "player": "Domingo Germ\u00e1n",
+        "value": "543"
+      },
+      {
+        "playerId": 467100,
+        "player": "Iv\u00e1n Nova",
+        "value": "543"
+      },
+      {
+        "playerId": 110434,
+        "player": "Stan Bahnsen",
+        "value": "534"
+      },
+      {
+        "playerId": 120411,
+        "player": "Melido Perez",
+        "value": "519"
+      },
+      {
+        "playerId": 120170,
+        "player": "Joe Page",
+        "value": "515"
+      },
+      {
+        "playerId": 501381,
+        "player": "Michael Pineda",
+        "value": "514"
+      },
+      {
+        "playerId": 150359,
+        "player": "A.J. Burnett",
+        "value": "513"
+      },
+      {
+        "playerId": 114989,
+        "player": "Rich Gossage",
+        "value": "512"
+      },
+      {
+        "playerId": 117909,
+        "player": "Ed Lopat",
+        "value": "502"
+      },
+      {
+        "playerId": 643338,
+        "player": "Chad Green",
+        "value": "494"
+      },
+      {
+        "playerId": 116334,
+        "player": "Catfish Hunter",
+        "value": "492"
+      },
+      {
+        "playerId": 116550,
+        "player": "Tommy John",
+        "value": "483"
+      },
+      {
+        "playerId": 656756,
+        "player": "Jordan Montgomery",
+        "value": "478"
+      },
+      {
+        "playerId": 120843,
+        "player": "Jack Quinn",
+        "value": "478"
+      },
+      {
+        "playerId": 493133,
+        "player": "Hiroki Kuroda",
+        "value": "463"
+      },
+      {
+        "playerId": 123935,
+        "player": "Jack Warhop",
+        "value": "463"
+      },
+      {
+        "playerId": 118026,
+        "player": "Sparky Lyle",
+        "value": "454"
+      },
+      {
+        "playerId": 547973,
+        "player": "Aroldis Chapman",
+        "value": "453"
+      },
+      {
+        "playerId": 501955,
+        "player": "Joba Chamberlain",
+        "value": "446"
+      },
+      {
+        "playerId": 118900,
+        "player": "Doc Medich",
+        "value": "431"
+      },
+      {
+        "playerId": 118947,
+        "player": "Ramiro Mendoza",
+        "value": "414"
+      },
+      {
+        "playerId": 122636,
+        "player": "Bill Stafford",
+        "value": "408"
+      },
+      {
+        "playerId": 116592,
+        "player": "Hank Johnson",
+        "value": "407"
+      },
+      {
+        "playerId": 122681,
+        "player": "Mike Stanton",
+        "value": "407"
+      },
+      {
+        "playerId": 120339,
+        "player": "Monte Pearson",
+        "value": "406"
+      },
+      {
+        "playerId": 120072,
+        "player": "Al Orth",
+        "value": "402"
+      },
+      {
+        "playerId": 117032,
+        "player": "Jimmy Key",
+        "value": "400"
+      },
+      {
+        "playerId": 110152,
+        "player": "Johnny Allen",
+        "value": "395"
+      },
+      {
+        "playerId": 120936,
+        "player": "Dennis Rasmussen",
+        "value": "393"
+      },
+      {
+        "playerId": 115384,
+        "player": "Steve Hamilton",
+        "value": "389"
+      },
+      {
+        "playerId": 657376,
+        "player": "Clarke Schmidt",
+        "value": "386"
+      },
+      {
+        "playerId": 116615,
+        "player": "Randy Johnson",
+        "value": "383"
+      },
+      {
+        "playerId": 114116,
+        "player": "Ed Figueroa",
+        "value": "373"
+      },
+      {
+        "playerId": 113440,
+        "player": "Atley Donald",
+        "value": "369"
+      },
+      {
+        "playerId": 119560,
+        "player": "Johnny Murphy",
+        "value": "369"
+      },
+      {
+        "playerId": 116050,
+        "player": "Bill Hogg",
+        "value": "368"
+      },
+      {
+        "playerId": 123333,
+        "player": "Dick Tidrow",
+        "value": "365"
+      },
+      {
+        "playerId": 116726,
+        "player": "Sad Sam Jones",
+        "value": "363"
+      },
+      {
+        "playerId": 118624,
+        "player": "Lindy McDaniel",
+        "value": "363"
+      },
+      {
+        "playerId": 476589,
+        "player": "Adam Warren",
+        "value": "361"
+      },
+      {
+        "playerId": 701542,
+        "player": "Will Warren",
+        "value": "358"
+      },
+      {
+        "playerId": 113410,
+        "player": "Pat Dobson",
+        "value": "356"
+      },
+      {
+        "playerId": 117514,
+        "player": "Don Larsen",
+        "value": "356"
+      },
+      {
+        "playerId": 111195,
+        "player": "Tiny Bonham",
+        "value": "348"
+      },
+      {
+        "playerId": 111245,
+        "player": "Hank Borowy",
+        "value": "340"
+      },
+      {
+        "playerId": 119704,
+        "player": "Jeff Nelson",
+        "value": "334"
+      },
+      {
+        "playerId": 122910,
+        "player": "Tom Sturdivant",
+        "value": "333"
+      },
+      {
+        "playerId": 111854,
+        "player": "Greg Cadaret",
+        "value": "324"
+      },
+      {
+        "playerId": 116824,
+        "player": "Scott Kamieniecki",
+        "value": "323"
+      },
+      {
+        "playerId": 693645,
+        "player": "Cam Schlittler",
+        "value": "323"
+      },
+      {
+        "playerId": 116400,
+        "player": "Hideki Irabu",
+        "value": "315"
+      },
+      {
+        "playerId": 121575,
+        "player": "Marius Russo",
+        "value": "311"
+      },
+      {
+        "playerId": 425426,
+        "player": "Chien-Ming Wang",
+        "value": "310"
+      },
+      {
+        "playerId": 115291,
+        "player": "Bump Hadley",
+        "value": "309"
+      },
+      {
+        "playerId": 116909,
+        "player": "Mike Kekich",
+        "value": "304"
+      },
+      {
+        "playerId": 113393,
+        "player": "Art Ditmar",
+        "value": "301"
+      },
+      {
+        "playerId": 116878,
+        "player": "Ray Keating",
+        "value": "301"
+      },
+      {
+        "playerId": 111793,
+        "player": "Bullet Joe Bush",
+        "value": "297"
+      },
+      {
+        "playerId": 608331,
+        "player": "Max Fried",
+        "value": "293"
+      },
+      {
+        "playerId": 121069,
+        "player": "Hal Reniff",
+        "value": "293"
+      }
+    ],
+    "pitching.saves": [
+      {
+        "playerId": 121250,
+        "player": "Mariano Rivera",
+        "value": "652"
+      },
+      {
+        "playerId": 121201,
+        "player": "Dave Righetti",
+        "value": "224"
+      },
+      {
+        "playerId": 547973,
+        "player": "Aroldis Chapman",
+        "value": "153"
+      },
+      {
+        "playerId": 114989,
+        "player": "Rich Gossage",
+        "value": "151"
+      },
+      {
+        "playerId": 118026,
+        "player": "Sparky Lyle",
+        "value": "141"
+      },
+      {
+        "playerId": 119560,
+        "player": "Johnny Murphy",
+        "value": "104"
+      },
+      {
+        "playerId": 114017,
+        "player": "Steve Farr",
+        "value": "78"
+      },
+      {
+        "playerId": 120170,
+        "player": "Joe Page",
+        "value": "76"
+      },
+      {
+        "playerId": 605280,
+        "player": "Clay Holmes",
+        "value": "74"
+      },
+      {
+        "playerId": 124123,
+        "player": "John Wetteland",
+        "value": "74"
+      },
+      {
+        "playerId": 118624,
+        "player": "Lindy McDaniel",
+        "value": "58"
+      },
+      {
+        "playerId": 502085,
+        "player": "David Robertson",
+        "value": "53"
+      },
+      {
+        "playerId": 670280,
+        "player": "David Bednar",
+        "value": "45"
+      },
+      {
+        "playerId": 453192,
+        "player": "Andrew Miller",
+        "value": "45"
+      },
+      {
+        "playerId": 400089,
+        "player": "Rafael Soriano",
+        "value": "44"
+      },
+      {
+        "playerId": 110341,
+        "player": "Luis Arroyo",
+        "value": "43"
+      },
+      {
+        "playerId": 113653,
+        "player": "Ryne Duren",
+        "value": "43"
+      },
+      {
+        "playerId": 121069,
+        "player": "Hal Reniff",
+        "value": "41"
+      },
+      {
+        "playerId": 121100,
+        "player": "Allie Reynolds",
+        "value": "41"
+      },
+      {
+        "playerId": 120913,
+        "player": "Pedro Ramos",
+        "value": "40"
+      },
+      {
+        "playerId": 121623,
+        "player": "Johnny Sain",
+        "value": "39"
+      },
+      {
+        "playerId": 476454,
+        "player": "Dellin Betances",
+        "value": "36"
+      },
+      {
+        "playerId": 115384,
+        "player": "Steve Hamilton",
+        "value": "36"
+      },
+      {
+        "playerId": 119327,
+        "player": "Wilcy Moore",
+        "value": "35"
+      },
+      {
+        "playerId": 110100,
+        "player": "Jack Aker",
+        "value": "31"
+      },
+      {
+        "playerId": 116222,
+        "player": "Steve Howe",
+        "value": "31"
+      },
+      {
+        "playerId": 115160,
+        "player": "Bob Grim",
+        "value": "28"
+      },
+      {
+        "playerId": 116241,
+        "player": "Waite Hoyt",
+        "value": "28"
+      },
+      {
+        "playerId": 119377,
+        "player": "Tom Morgan",
+        "value": "26"
+      },
+      {
+        "playerId": 122083,
+        "player": "Bob Shawkey",
+        "value": "26"
+      },
+      {
+        "playerId": 124524,
+        "player": "Dooley Womack",
+        "value": "24"
+      },
+      {
+        "playerId": 123333,
+        "player": "Dick Tidrow",
+        "value": "23"
+      },
+      {
+        "playerId": 113135,
+        "player": "Ron Davis",
+        "value": "22"
+      },
+      {
+        "playerId": 116726,
+        "player": "Sad Sam Jones",
+        "value": "22"
+      },
+      {
+        "playerId": 115226,
+        "player": "Lee Guetterman",
+        "value": "21"
+      },
+      {
+        "playerId": 120386,
+        "player": "Herb Pennock",
+        "value": "21"
+      },
+      {
+        "playerId": 114160,
+        "player": "Brian Fisher",
+        "value": "20"
+      },
+      {
+        "playerId": 111457,
+        "player": "Marshall Bridges",
+        "value": "19"
+      },
+      {
+        "playerId": 122060,
+        "player": "Bobby Shantz",
+        "value": "19"
+      },
+      {
+        "playerId": 123513,
+        "player": "Jim Turner",
+        "value": "19"
+      },
+      {
+        "playerId": 118214,
+        "player": "Pat Malone",
+        "value": "18"
+      },
+      {
+        "playerId": 642207,
+        "player": "Devin Williams",
+        "value": "18"
+      },
+      {
+        "playerId": 118947,
+        "player": "Ramiro Mendoza",
+        "value": "16"
+      },
+      {
+        "playerId": 502154,
+        "player": "Zack Britton",
+        "value": "15"
+      },
+      {
+        "playerId": 112427,
+        "player": "Jim Coates",
+        "value": "15"
+      },
+      {
+        "playerId": 117250,
+        "player": "Jim Konstanty",
+        "value": "15"
+      },
+      {
+        "playerId": 122681,
+        "player": "Mike Stanton",
+        "value": "15"
+      },
+      {
+        "playerId": 117380,
+        "player": "Bob Kuzava",
+        "value": "13"
+      },
+      {
+        "playerId": 119041,
+        "player": "Pete Mikkelsen",
+        "value": "13"
+      },
+      {
+        "playerId": 121562,
+        "player": "Allen Russell",
+        "value": "13"
+      },
+      {
+        "playerId": 111842,
+        "player": "Tommy Byrne",
+        "value": "12"
+      },
+      {
+        "playerId": 114393,
+        "player": "George Frazier",
+        "value": "12"
+      },
+      {
+        "playerId": 115215,
+        "player": "Cecilio Guante",
+        "value": "12"
+      },
+      {
+        "playerId": 116853,
+        "player": "Steve Karsay",
+        "value": "12"
+      },
+      {
+        "playerId": 123509,
+        "player": "Bob Turley",
+        "value": "12"
+      },
+      {
+        "playerId": 596133,
+        "player": "Luke Weaver",
+        "value": "12"
+      },
+      {
+        "playerId": 113393,
+        "player": "Art Ditmar",
+        "value": "11"
+      },
+      {
+        "playerId": 643338,
+        "player": "Chad Green",
+        "value": "11"
+      },
+      {
+        "playerId": 118494,
+        "player": "Carl Mays",
+        "value": "11"
+      },
+      {
+        "playerId": 593974,
+        "player": "Wandy Peralta",
+        "value": "11"
+      },
+      {
+        "playerId": 120593,
+        "player": "George Pipgras",
+        "value": "11"
+      },
+      {
+        "playerId": 122816,
+        "player": "Tim Stoddard",
+        "value": "11"
+      },
+      {
+        "playerId": 124233,
+        "player": "Bob Wickman",
+        "value": "11"
+      },
+      {
+        "playerId": 114089,
+        "player": "Tom Ferrick",
+        "value": "10"
+      },
+      {
+        "playerId": 114299,
+        "player": "Whitey Ford",
+        "value": "10"
+      },
+      {
+        "playerId": 115281,
+        "player": "John Habyan",
+        "value": "10"
+      },
+      {
+        "playerId": 118367,
+        "player": "Tippy Martinez",
+        "value": "10"
+      },
+      {
+        "playerId": 120105,
+        "player": "Joe Ostrowski",
+        "value": "10"
+      },
+      {
+        "playerId": 114917,
+        "player": "Lefty Gomez",
+        "value": "9"
+      },
+      {
+        "playerId": 114979,
+        "player": "Tom Gorman",
+        "value": "9"
+      },
+      {
+        "playerId": 119704,
+        "player": "Jeff Nelson",
+        "value": "9"
+      },
+      {
+        "playerId": 122636,
+        "player": "Bill Stafford",
+        "value": "9"
+      },
+      {
+        "playerId": 642528,
+        "player": "Jonathan Lo\u00e1isiga",
+        "value": "8"
+      },
+      {
+        "playerId": 118062,
+        "player": "Duke Maas",
+        "value": "8"
+      },
+      {
+        "playerId": 119224,
+        "player": "George Mogridge",
+        "value": "8"
+      },
+      {
+        "playerId": 121547,
+        "player": "Red Ruffing",
+        "value": "8"
+      },
+      {
+        "playerId": 123200,
+        "player": "Ralph Terry",
+        "value": "8"
+      },
+      {
+        "playerId": 111854,
+        "player": "Greg Cadaret",
+        "value": "7"
+      },
+      {
+        "playerId": 112394,
+        "player": "Pat Clements",
+        "value": "7"
+      },
+      {
+        "playerId": 150035,
+        "player": "Kyle Farnsworth",
+        "value": "7"
+      },
+      {
+        "playerId": 116226,
+        "player": "Jay Howell",
+        "value": "7"
+      },
+      {
+        "playerId": 116592,
+        "player": "Hank Johnson",
+        "value": "7"
+      },
+      {
+        "playerId": 650633,
+        "player": "Michael King",
+        "value": "7"
+      },
+      {
+        "playerId": 118477,
+        "player": "Rudy May",
+        "value": "7"
+      },
+      {
+        "playerId": 122129,
+        "player": "Roy Sherid",
+        "value": "7"
+      },
+      {
+        "playerId": 123935,
+        "player": "Jack Warhop",
+        "value": "7"
+      },
+      {
+        "playerId": 110032,
+        "player": "Juan Acevedo",
+        "value": "6"
+      },
+      {
+        "playerId": 111195,
+        "player": "Tiny Bonham",
+        "value": "6"
+      },
+      {
+        "playerId": 112187,
+        "player": "Spud Chandler",
+        "value": "6"
+      },
+      {
+        "playerId": 113008,
+        "player": "Bud Daley",
+        "value": "6"
+      },
+      {
+        "playerId": 113292,
+        "player": "James DeShong",
+        "value": "6"
+      },
+      {
+        "playerId": 114971,
+        "player": "Tom Gordon",
+        "value": "6"
+      },
+      {
+        "playerId": 115291,
+        "player": "Bump Hadley",
+        "value": "6"
+      },
+      {
+        "playerId": 115820,
+        "player": "Xavier Hernandez",
+        "value": "6"
+      },
+      {
+        "playerId": 117350,
+        "player": "Johnny Kucks",
+        "value": "6"
+      },
+      {
+        "playerId": 120843,
+        "player": "Jack Quinn",
+        "value": "6"
+      },
+      {
+        "playerId": 123576,
+        "player": "Cecil Upshaw",
+        "value": "6"
+      },
+      {
+        "playerId": 123702,
+        "player": "Joe Verbanic",
+        "value": "6"
+      },
+      {
+        "playerId": 476589,
+        "player": "Adam Warren",
+        "value": "6"
+      },
+      {
+        "playerId": 110152,
+        "player": "Johnny Allen",
+        "value": "5"
+      },
+      {
+        "playerId": 110793,
+        "player": "Fred Beene",
+        "value": "5"
+      },
+      {
+        "playerId": 501955,
+        "player": "Joba Chamberlain",
+        "value": "5"
+      },
+      {
+        "playerId": 114176,
+        "player": "Ray Fisher",
+        "value": "5"
+      },
+      {
+        "playerId": 121575,
+        "player": "Marius Russo",
+        "value": "5"
+      },
+      {
+        "playerId": 122172,
+        "player": "Bob Shirley",
+        "value": "5"
+      },
+      {
+        "playerId": 122176,
+        "player": "Urban Shocker",
+        "value": "5"
+      },
+      {
+        "playerId": 122910,
+        "player": "Tom Sturdivant",
+        "value": "5"
+      }
+    ]
+  }
+}

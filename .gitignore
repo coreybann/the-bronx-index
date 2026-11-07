@@ -44,3 +44,8 @@ next-env.d.ts
 *.backup
 *.backup-*
 *.before-*
+
+# Python and MLB data collection caches
+/.cache/
+__pycache__/
+*.py[cod]
