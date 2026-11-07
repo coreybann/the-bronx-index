@@ -5,7 +5,7 @@ import { Suspense } from "react";
 export const metadata: Metadata = {
   title: "Yankees History | The Bronx Index",
   description:
-    "Explore New York Yankees championships, legendary players, franchise records, historical seasons, and retired numbers.",
+    "Explore New York Yankees championships, legendary players, franchise records, and historical seasons on The Bronx Index.",
 };
 
 export default function HistoryPage() {

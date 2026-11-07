@@ -39,14 +39,14 @@ export default function HistorySections() {
 
   return (
     <div>
-      <div className="mb-10 flex flex-wrap gap-3 border-b border-white/10">
+      <div className="mb-10 flex gap-3 overflow-x-auto border-b border-white/10 sm:flex-wrap">
         {tabs.map((tab) => (
           <button
             key={tab.id}
             type="button"
             onClick={() => changeTab(tab.id)}
             aria-pressed={activeTab === tab.id}
-            className={`border-b-2 px-5 py-4 text-xs font-bold uppercase tracking-wider transition ${
+            className={`shrink-0 whitespace-nowrap border-b-2 px-5 py-4 text-xs font-bold uppercase tracking-wider transition ${
               activeTab === tab.id
                 ? "border-[#d5b66a] text-[#d5b66a]"
                 : "border-transparent text-slate-400 hover:text-white"
