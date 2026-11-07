@@ -9,7 +9,7 @@ const links = [
   { label: "Team", href: "/team", page: true },
   { label: "Prospects", href: "/prospects", page: true },
   { label: "History", href: "/history", page: true },
-  { label: "Front Office", href: "/#front-office", page: false },
+  { label: "Front Office", href: "/front-office", page: true },
 ];
 
 export default function SiteNavigation() {

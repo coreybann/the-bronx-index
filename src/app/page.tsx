@@ -30,7 +30,7 @@ const sections = [
     description:
       "A closer look at contracts, payroll, transactions, roster construction, and organizational decisions.",
     detail: "CONTRACTS · PAYROLL · TRANSACTIONS",
-    href: "#front-office",
+    href: "/front-office",
   },
 ];
 
