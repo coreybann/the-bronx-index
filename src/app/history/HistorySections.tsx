@@ -5,8 +5,9 @@ import Championships from "./Championships";
 import ChampionshipComparison from "./ChampionshipComparison";
 import LegendsDirectory from "./LegendsDirectory";
 import FranchiseRecords from "./FranchiseRecords";
+import HistoricalSeasons from "./HistoricalSeasons";
 
-type HistoryTab = "championships" | "legends" | "records";
+type HistoryTab = "championships" | "legends" | "records" | "seasons";
 
 export default function HistorySections() {
   const searchParams = useSearchParams();
@@ -15,7 +16,9 @@ export default function HistorySections() {
   const requestedTab = searchParams.get("tab");
 
   const activeTab: HistoryTab =
-    requestedTab === "legends" || requestedTab === "records"
+    requestedTab === "legends" ||
+    requestedTab === "records" ||
+    requestedTab === "seasons"
       ? requestedTab
       : "championships";
 
@@ -31,6 +34,7 @@ export default function HistorySections() {
     { id: "championships" as const, label: "Championships" },
     { id: "legends" as const, label: "Yankees Legends" },
     { id: "records" as const, label: "Franchise Records" },
+    { id: "seasons" as const, label: "Historical Seasons" },
   ];
 
   return (
@@ -64,6 +68,7 @@ export default function HistorySections() {
 
       {activeTab === "legends" && <LegendsDirectory />}
       {activeTab === "records" && <FranchiseRecords />}
+      {activeTab === "seasons" && <HistoricalSeasons />}
     </div>
   );
 }
