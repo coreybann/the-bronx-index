@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Contracts from "./Contracts";
+import FrontOfficeTabs from "./FrontOfficeTabs";
 
 export const metadata: Metadata = {
   title: "Yankees Front Office | The Bronx Index",
@@ -29,7 +29,7 @@ export default function FrontOfficePage() {
       </section>
 
       <section className="mx-auto max-w-7xl px-6 py-16 lg:px-10">
-        <Contracts />
+        <FrontOfficeTabs />
       </section>
     </main>
   );
