@@ -3,8 +3,9 @@
 import { useState } from "react";
 import Contracts from "./Contracts";
 import Transactions from "./Transactions";
+import RosterConstructor from "./RosterConstructor";
 
-type FrontOfficeTab = "contracts" | "transactions";
+type FrontOfficeTab = "contracts" | "transactions" | "roster";
 
 export default function FrontOfficeTabs() {
   const [activeTab, setActiveTab] =
@@ -13,6 +14,7 @@ export default function FrontOfficeTabs() {
   const tabs: { id: FrontOfficeTab; label: string }[] = [
     { id: "contracts", label: "Contracts" },
     { id: "transactions", label: "Transactions" },
+    { id: "roster", label: "Roster Construction" },
   ];
 
   return (
@@ -36,8 +38,10 @@ export default function FrontOfficeTabs() {
 
       {activeTab === "contracts" ? (
         <Contracts />
-      ) : (
+      ) : activeTab === "transactions" ? (
         <Transactions />
+      ) : (
+        <RosterConstructor />
       )}
     </div>
   );
