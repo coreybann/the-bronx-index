@@ -1,0 +1,51 @@
+[
+  {
+    "id": 121578,
+    "name": "Babe Ruth",
+    "position": "OF",
+    "startYear": 1920,
+    "endYear": 1934
+  },
+  {
+    "id": 114680,
+    "name": "Lou Gehrig",
+    "position": "1B",
+    "startYear": 1923,
+    "endYear": 1939
+  },
+  {
+    "id": 113376,
+    "name": "Joe DiMaggio",
+    "position": "OF",
+    "startYear": 1936,
+    "endYear": 1951
+  },
+  {
+    "id": 118258,
+    "name": "Mickey Mantle",
+    "position": "OF",
+    "startYear": 1951,
+    "endYear": 1968
+  },
+  {
+    "id": 110925,
+    "name": "Yogi Berra",
+    "position": "C",
+    "startYear": 1946,
+    "endYear": 1963
+  },
+  {
+    "id": 116539,
+    "name": "Derek Jeter",
+    "position": "SS",
+    "startYear": 1995,
+    "endYear": 2014
+  },
+  {
+    "id": 121250,
+    "name": "Mariano Rivera",
+    "position": "P",
+    "startYear": 1995,
+    "endYear": 2013
+  }
+]
