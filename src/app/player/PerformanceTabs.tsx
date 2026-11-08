@@ -175,7 +175,6 @@ const [selectedSeason, setSelectedSeason] = useState<string>(
 
 useEffect(() => {
   if (!selectedSeason) {
-    setStatcast(null);
     return;
   }
 
@@ -333,7 +332,13 @@ useEffect(() => {
         <select
           id="player-season"
           value={selectedSeason}
-          onChange={(event) => setSelectedSeason(event.target.value)}
+          onChange={(event) => {
+            setStatcast(null);
+            setPitchMetrics(null);
+            setStatcastLoading(true);
+            setPitchMetricsLoading(isPitcher);
+            setSelectedSeason(event.target.value);
+          }}
           disabled={availableSeasons.length === 0}
           className="min-w-28 border border-white/20 bg-[#07152b] px-4 py-2 text-sm font-semibold text-white outline-none focus:border-[#d5b66a]"
         >
@@ -442,7 +447,7 @@ useEffect(() => {
         Expected Statistics & Quality of Contact
       </h3>
       <p className="mt-2 text-xs text-slate-500">
-        Statcast measurements for the {latestSeason} season.
+        Statcast measurements for the {selectedSeason || 'selected'} season.
       </p>
     </div>
 <div className="flex flex-wrap gap-2 border-b border-white/10 pb-4">

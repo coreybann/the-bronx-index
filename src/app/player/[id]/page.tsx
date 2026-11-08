@@ -93,46 +93,18 @@ async function PlayerProfile({
   const group = isPitcher ? "pitching" : "hitting";
   const stats = await getPlayerStats(id, group);
 
-  const columns = isPitcher
-    ? [
-        { label: "G", key: "gamesPlayed" },
-        { label: "GS", key: "gamesStarted" },
-        { label: "IP", key: "inningsPitched" },
-        { label: "ERA", key: "era" },
-        { label: "WHIP", key: "whip" },
-        { label: "SO", key: "strikeOuts" },
-        { label: "BB", key: "baseOnBalls" },
-        { label: "HR", key: "homeRuns" },
-      ]
-    : [
-    { label: "G", key: "gamesPlayed" },
-    { label: "PA", key: "plateAppearances" },
-    { label: "AB", key: "atBats" },
-    { label: "H", key: "hits" },
-    { label: "R", key: "runs" },
-    { label: "2B", key: "doubles" },
-    { label: "3B", key: "triples" },
-    { label: "HR", key: "homeRuns" },
-    { label: "RBI", key: "rbi" },
-    { label: "BB", key: "baseOnBalls" },
-    { label: "SO", key: "strikeOuts" },
-    { label: "HBP", key: "hitByPitch" },
-    { label: "SB", key: "stolenBases" },
-    { label: "AVG", key: "avg" },
-    { label: "OBP", key: "obp" },
-    { label: "SLG", key: "slg" },
-    { label: "OPS", key: "ops" },
-    { label: "BABIP", key: "babip" },
-  ];
+  const mlbSeasons = new Set(
+    stats.map((split) => split.season).filter(Boolean)
+  ).size;
 
   const info = [
     ["Age", player.currentAge],
     [
-  "MLB Experience",
-  player.mlbDebutDate
-    ? `${2026 - Number(player.mlbDebutDate.slice(0, 4)) + 1} MLB seasons`
-    : undefined,
-],
+      "MLB Experience",
+      mlbSeasons > 0
+        ? `${mlbSeasons} MLB ${mlbSeasons === 1 ? "season" : "seasons"}`
+        : undefined,
+    ],
     ["Position", player.primaryPosition?.name],
     ["Bats", player.batSide?.description],
     ["Throws", player.pitchHand?.description],
