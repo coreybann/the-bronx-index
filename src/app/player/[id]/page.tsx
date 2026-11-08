@@ -125,7 +125,15 @@ async function PlayerProfile({
         .filter(Boolean)
         .join(", "),
     ],
-    ["MLB Debut", player.mlbDebutDate],
+    [
+      "MLB Debut",
+      player.mlbDebutDate
+        ? new Date(`${player.mlbDebutDate}T12:00:00`).toLocaleDateString(
+            "en-US",
+            { month: "long", day: "numeric", year: "numeric" }
+          )
+        : undefined,
+    ],
   ];
   const headshotUrl = `https://img.mlbstatic.com/mlb-photos/image/upload/w_500,q_90/v1/people/${player.id}/headshot/67/current`;
   return (
